@@ -1,0 +1,25 @@
+.DS_Store
+# Ignore all files in the gold standard directory
+GOLD STANDARD/*
+JavaScriptAnnotationTool/__pycache__/*
+JavaScriptAnnotationTool/.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.swp
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Build artifacts
+dist/
+build/
+
+# Environment files
+.env
+.env.local
