@@ -1,9 +1,23 @@
 .DS_Store
 # Ignore all files in the gold standard directory
 GOLD STANDARD/*
+JavaScriptAnnotationTool/__pycache__
 JavaScriptAnnotationTool/__pycache__/*
 JavaScriptAnnotationTool/.DS_Store
+JavaScriptAnnotationTool/input
+JavaScriptAnnotationTool/input/*
+JavaScriptAnnotationTool/output_folder
+JavaScriptAnnotationTool/output_folder/*
+JavaScriptAnnotationTool/downloaded_acts/*
+JavaScriptAnnotationTool/packages
+JavaScriptAnnotationTool/packages/*
+JavaScriptAnnotationTool/processed_acts/*
+JavaScriptAnnotationTool/split_acts/*
 
+Obligation_prohibition_picking_context/__pycache__
+Obligation_prohibition_picking_context/__pycache__/*
+
+Obligation_prohibition_picking_context/data/*
 # Logs
 *.log
 logs/

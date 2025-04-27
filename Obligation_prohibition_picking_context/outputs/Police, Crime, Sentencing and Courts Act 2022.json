@@ -1,0 +1,3138 @@
+[
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/101",
+        "type": "PERMITTED",
+        "for": "Conditions with one or both of the objects in subsection (2)",
+        "to": "be attached to a diversionary caution.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/101",
+        "type": "PERMITTED",
+        "for": "an attendance condition",
+        "to": "also require the offender to pay for the reasonable cost of the provision of any education, training or other service to the offender",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the attendance condition requires the offender to attend somewhere for the purpose of participating in the education, training, or service.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/101"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/101",
+        "type": "PERMITTED",
+        "for": "Regulations",
+        "to": "amend subsection (5) or (6)(b) (or both) so as to substitute a different number of hours",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/101",
+        "type": "PERMITTED",
+        "for": "A condition authorised by this section",
+        "to": "(a) contain further details as to how it must be complied with (including the times at or between which something must or must not be done); (b) provide for those details to be supplied, after the giving of the caution, by a specified person or a person of a specified description.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/101",
+        "type": "PERMITTED",
+        "for": "A condition authorised by this section",
+        "to": "not require a person to remain at their own or anyone else’s residence for any period of time.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/102",
+        "type": "PERMITTED",
+        "for": "A condition requiring the offender to pay a financial penalty",
+        "to": "be attached to a diversionary caution with the object of punishing the offender.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/102",
+        "type": "OBLIGATORY",
+        "for": "A condition requiring the offender to pay a financial penalty",
+        "to": "specify— (a) the amount of the financial penalty, (b) the person to whom the financial penalty must be paid, (c) how it must or may be paid, and (d) the date on or before which it must be paid.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/102",
+        "type": "OBLIGATORY",
+        "for": "a person to whom the financial penalty must be paid",
+        "to": "give it to the designated officer for a magistrates’ court",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the person is not the designated officer for a magistrates’ court and the penalty is paid to that person.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/102"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/102",
+        "type": "OBLIGATORY",
+        "for": "The date specified under subsection (2)(d)",
+        "to": "be the last day of the period of 28 days beginning with the day on which the caution is given.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/101",
+        "type": "PERMITTED",
+        "for": "a condition with one or both of the objects in subsection (2)",
+        "to": "be attached to a diversionary caution",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the diversionary caution is given to a relevant foreign offender.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/103"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/109",
+        "type": "PERMITTED",
+        "for": "An authorised person or prosecution authority",
+        "to": "",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/115",
+        "type": "PERMITTED",
+        "for": "criminal proceedings",
+        "to": "be instituted against the offender for the offence in respect of which the caution was given",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "a diversionary caution is given",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/103"
+            },
+            {
+                "type": "ONLY IF",
+                "text": "the offender fails without reasonable excuse to comply with any of the conditions attached to the caution.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/105"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/106",
+        "type": "PERMITTED",
+        "for": "a constable",
+        "to": "arrest the offender without warrant",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the constable has reasonable grounds for believing that the offender has failed without reasonable excuse to comply with any of the conditions attached to a diversionary caution.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/106"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/106",
+        "type": "OBLIGATORY",
+        "for": "A person arrested under this section",
+        "to": "be— (a) charged with the offence in question, or (b) released without charge.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/106",
+        "type": "OBLIGATORY",
+        "for": "A person released without charge under subsection (2)(b)",
+        "to": "be released on bail",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "(i) the release is to enable a decision to be made as to whether the offender should be charged with the offence, and (ii) the pre-conditions for bail are satisfied.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/106"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/106",
+        "type": "OBLIGATORY",
+        "for": "A person released without charge under subsection (2)(b)",
+        "to": "be released without bail (with or without any variation in the conditions attached to the caution)",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "any other case applies.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/106"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/106",
+        "type": "OBLIGATORY",
+        "for": "a custody officer",
+        "to": "inform the person that the release is to enable a decision to be made as to whether the person should be charged with the offence in question",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "a person is released on bail under subsection (3)(a).",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/106"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/106",
+        "type": "PERMITTED",
+        "for": "A person arrested under this section, or any other person in whose case subsection (2) applies",
+        "to": "be kept in police detention— (a) to enable the person to be dealt with in accordance with that subsection, or (b) where applicable, to enable the power under section 47(4A) of the 1984 Act (power of custody officer to appoint a different or additional time for answering to police bail), as applied by section 107 below, to be exercised.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/106",
+        "type": "PERMITTED",
+        "for": "A person arrested under this section, or any other person in whose case subsection (2) applies",
+        "to": "be kept in police detention until they are in a fit state to be dealt with in that way, or to enable that power to be exercised",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the person is not in a fit state to be dealt with in that way, or to enable that power to be exercised.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/106"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/106",
+        "type": "OBLIGATORY",
+        "for": "Subsections (2) and (3)",
+        "to": "be complied with as soon as practicable",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the person arrested arrives at the police station or, in the case of a person arrested at the police station, as soon as practicable after the arrest.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/106"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/108",
+        "type": "PERMITTED",
+        "for": "An authorised person",
+        "to": "give a community caution to a person aged 18 or over (“the offender”) in respect of an offence, other than an excluded offence",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "(a) an authorised person or a prosecution authority decides that— (i) there is sufficient evidence to charge the offender with the offence, and (ii) a community caution should be given to the offender in respect of the offence; (b) the offender admits to having committed the offence; (c) the offender consents to being given the caution; (d) an authorised person— (i) explains the effect of the caution to the offender, and (ii) in particular, warns the offender of the effect of failure to comply with any of the conditions attached to the caution; (e) the offender signs a document which contains— (i) details of the offence, (ii) the offender’s admission to having committed the offence, (iii) the offender’s consent to being given the caution, and (iv) the conditions attached to the caution.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/108"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/108",
+        "type": "PERMITTED",
+        "for": "A community caution",
+        "to": "not be given in respect of an offence committed before the coming into force of this section.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/109",
+        "type": "OBLIGATORY",
+        "for": "an authorised person or prosecution authority",
+        "to": "(a) make reasonable efforts, or ensure that reasonable efforts are or have been made, to obtain the views of any victim or victims of the offence, and (b) take those views into account",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "deciding what conditions to attach to a community caution.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/109"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/109",
+        "type": "OBLIGATORY",
+        "for": "an authorised person or prosecution authority",
+        "to": "attach as a condition that it is the view of the victim or all the victims that the offender should carry out a particular action listed in the community remedy document",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "this is the view of the victim or all the victims",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/109"
+            },
+            {
+                "type": "UNLESS",
+                "text": "it seems to the authorised person or prosecution authority— (a) the action is not one that can be attached as a condition to a community caution, or (b) it would be inappropriate to do so.",
+                "section": "section-109"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/110",
+        "type": "PERMITTED",
+        "for": "Conditions with one or both of the objects in subsection (2)",
+        "to": "be attached to a community caution.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/101",
+        "type": "PERMITTED",
+        "for": "an attendance condition",
+        "to": "require the offender to pay for the reasonable cost of the provision of the education, training or service to the offender",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the attendance condition requires the offender to attend somewhere for the purpose of participating in any education or training, or receiving any other service",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/101"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/101",
+        "type": "PERMITTED",
+        "for": "Regulations",
+        "to": "amend subsection (5) or (6)(b) (or both) so as to substitute a different number of hours.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/101",
+        "type": "PERMITTED",
+        "for": "A condition authorised by this section",
+        "to": "(a) contain further details as to how it must be complied with (including the times at or between which something must or must not be done); (b) provide for those details to be supplied, after the giving of the caution, by a specified person or a person of a specified description.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/101",
+        "type": "PERMITTED",
+        "for": "A condition authorised by this section",
+        "to": "not require a person to remain at their own or anyone else’s residence for any period of time.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/111",
+        "type": "PERMITTED",
+        "for": "A condition requiring the offender to pay a financial penalty",
+        "to": "be attached to a community caution with the object of punishing the offender.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/111",
+        "type": "OBLIGATORY",
+        "for": "A condition requiring the offender to pay a financial penalty",
+        "to": "specify— (a) the amount of the financial penalty, (b) the person to whom the financial penalty must be paid, (c) how it must or may be paid, (d) the date on or before which the penalty must be paid, and (e) the consequences of non-payment.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/102",
+        "type": "PROHIBITED",
+        "for": "The amount specified under subsection (2)(a)",
+        "to": "exceed an amount prescribed in regulations.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/102",
+        "type": "OBLIGATORY",
+        "for": "a person specified under subsection (2)(b)",
+        "to": "give the penalty to the designated officer for a magistrates’ court",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the person is not such an officer",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/102"
+            },
+            {
+                "type": "AFTER",
+                "text": "the penalty is paid to that person.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/102"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/102",
+        "type": "OBLIGATORY",
+        "for": "The date specified under subsection (2)(d)",
+        "to": "be the last day of the period of 28 days beginning with the day on which the caution is given.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/111",
+        "type": "PERMITTED",
+        "for": "an amount of the increased penalty",
+        "to": "be registered under section 112 for enforcement against the offender as a fine",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "subsection (6) applies and the increased penalty is not paid within the period of 21 days beginning with the day after the date specified under subsection (2)(d).",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/111"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/112",
+        "type": "PERMITTED",
+        "for": "The chief officer of police",
+        "to": "in respect of any amount registrable under section 111(7), issue a certificate (“a registration certificate”)— (a) giving particulars of the financial penalty, (b) stating that the amount is registrable for enforcement against the offender as a fine, and (c) stating the name and last known address of the offender.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/112",
+        "type": "OBLIGATORY",
+        "for": "The chief officer of police issuing a registration certificate",
+        "to": "cause it to be sent to the designated officer for the local justice area in which the offender appears to the chief officer to reside.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/112",
+        "type": "OBLIGATORY",
+        "for": "The designated officer for a local justice area in receipt of a registration certificate",
+        "to": "(a) register the amount for enforcement as a fine in that area by entering it in the register of a magistrates’ court acting for that area, or (b) if it appears to the designated officer that the offender does not reside in that area, cause the certificate to be sent to the person appearing to the officer to be the designated officer for the local justice area in which the offender resides.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/112",
+        "type": "OBLIGATORY",
+        "for": "A designated officer registering an amount under this section for enforcement as a fine",
+        "to": "give the offender notice of the registration which— (a) specifies the amount registered, and (b) gives the information with respect to the financial penalty, and the authority for registration, that was included in the registration certificate.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/113",
+        "type": "PERMITTED",
+        "for": "a court",
+        "to": "adjourn any proceedings for the enforcement of an amount registered under this section, on one or more occasions, for the purpose of allowing the claim to be investigated",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the person against whom the proceedings are taken claims— (a) not to be the person to whom the community caution was given, (b) to have paid the amount that was required to be paid, or (c) to have a reasonable excuse for not paying.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/113"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/113",
+        "type": "PROHIBITED",
+        "for": "a court",
+        "to": "adjourn any proceedings for the enforcement of an amount registered under this section for more than 28 days in total",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the person against whom the proceedings are taken claims— (a) not to be the person to whom the community caution was given, (b) to have paid the amount that was required to be paid, or (c) to have a reasonable excuse for not paying.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/113"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/113",
+        "type": "OBLIGATORY",
+        "for": "a court",
+        "to": "accept a claim under subsection (1)(a) or (b)",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "in any proceedings for the enforcement of an amount registered under this section, the person against whom the proceedings are taken claims— (a) not to be the person to whom the community caution was given, (b) to have paid the amount that was required to be paid, or (c) to have a reasonable excuse for not paying",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/113"
+            },
+            {
+                "type": "UNLESS",
+                "text": "it is shown, on the balance of probabilities, that the claim is unfounded.",
+                "section": "section-113"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/113",
+        "type": "OBLIGATORY",
+        "for": "a court",
+        "to": "accept a claim under subsection (1)(c) so far as relating to the facts claimed (leaving aside any question as to the reasonableness of the excuse)",
+        "conditions": [
+            {
+                "type": "UNLESS",
+                "text": "it is shown, on the balance of probabilities, that the claim so far as relating to those facts is unfounded.",
+                "section": "section-113"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/113",
+        "type": "PERMITTED",
+        "for": "a court",
+        "to": "order that the condition of the caution by virtue of which the amount is required to be paid— (a) ceases to have effect, or (b) is varied so as to reduce the amount payable or to extend the time for payment (or both)",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "a court accepts a claim under subsection (1)(c).",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/113"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/109",
+        "type": "PERMITTED",
+        "for": "An authorised person or prosecution authority",
+        "to": "",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/115",
+        "type": "PERMITTED",
+        "for": "criminal proceedings",
+        "to": "not be instituted against the offender for the offence in respect of which the caution was given",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "a community caution is given.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/108"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/115",
+        "type": "PERMITTED",
+        "for": "an authorised person or prosecution authority",
+        "to": "(a) rescind the condition, and (b) attach a condition imposing a financial penalty (or further such condition) under section 111",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the offender fails without reasonable excuse to comply with any condition imposed under section 110.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/115"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/116",
+        "type": "OBLIGATORY",
+        "for": "The Secretary of State",
+        "to": "prepare a code of practice in relation to diversionary and community cautions.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/116",
+        "type": "OBLIGATORY",
+        "for": "the Secretary of State",
+        "to": "consider any representations made to the Secretary of State about the draft",
+        "conditions": [
+            {
+                "type": "AFTER",
+                "text": "preparing a draft of the code.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/116"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/116",
+        "type": "PERMITTED",
+        "for": "the Secretary of State",
+        "to": "amend the draft according to any considered representations made to the Secretary of State about the draft",
+        "conditions": [
+            {
+                "type": "AFTER",
+                "text": "preparing a draft of the code.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/116"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/116",
+        "type": "PROHIBITED",
+        "for": "the Secretary of State",
+        "to": "publish or amend the draft without the consent of the Attorney General",
+        "conditions": [
+            {
+                "type": "AFTER",
+                "text": "preparing a draft of the code.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/116"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/116",
+        "type": "OBLIGATORY",
+        "for": "the Secretary of State",
+        "to": "lay the code before each House of Parliament",
+        "conditions": [
+            {
+                "type": "AFTER",
+                "text": "complying with subsection (3).",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/116"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/116",
+        "type": "PERMITTED",
+        "for": "the Secretary of State",
+        "to": "bring the code into force by regulations",
+        "conditions": [
+            {
+                "type": "AFTER",
+                "text": "complying with subsection (4).",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/116"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/116",
+        "type": "PERMITTED",
+        "for": "The Secretary of State",
+        "to": "from time to time revise a code of practice brought into force under this section.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/117",
+        "type": "PERMITTED",
+        "for": "Regulations",
+        "to": "prohibit the giving of a diversionary or community caution to a person in respect of an offence where the person has already been given one or more cautions.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/117",
+        "type": "PERMITTED",
+        "for": "A prohibition under subsection (1)",
+        "to": "in particular be framed by reference to— (a) the kinds of caution previously given to the person; (b) the number of times any kind of caution has been given to the person; (c) the period preceding the commission of the offence within which any kind of caution has been given to the person; (d) the offence or description of offences in respect of which any kind of caution has been given to the person.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/118",
+        "type": "PROHIBITED",
+        "for": "a caution other than a diversionary or community caution",
+        "to": "be given to a person aged 18 or over who admits to having committed an offence.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/120",
+        "type": "OBLIGATORY",
+        "for": "Regulations under this Part",
+        "to": "be made by the Secretary of State by statutory instrument.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/120",
+        "type": "PERMITTED",
+        "for": "Regulations under this Part",
+        "to": "make— (a) different provision for different purposes; (b) consequential, supplementary, incidental, transitional and transitory provision and savings.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/120",
+        "type": "PERMITTED",
+        "for": "A statutory instrument containing the regulations specified in subsection (4) (with or without other provision)",
+        "to": "not be made",
+        "conditions": [
+            {
+                "type": "UNLESS",
+                "text": "a draft of the instrument has been laid before, and approved by resolution of, each House of Parliament.",
+                "section": "section-120"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/161",
+        "type": "PERMITTED",
+        "for": "Regulations under section 208(1) which bring any of the relevant YRO provisions into force only for a specified purpose or in relation to a specified area",
+        "to": "(a) provide for that provision to be in force for that purpose or in relation to that area for a specified period, and (b) make transitional or saving provision in connection with that provision ceasing to be in force at the end of the specified period.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/161",
+        "type": "PERMITTED",
+        "for": "Regulations containing provision by virtue of subsection (3)(a)",
+        "to": "be amended by subsequent regulations under section 208(1) so as to continue any of the relevant YRO provisions in force for the specified purpose or in relation to the specified area for a further specified period.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/161",
+        "type": "PERMITTED",
+        "for": "The regulations mentioned in subsection (7) (b)",
+        "to": "(a) provide that those provisions are to come into force with the amendments specified in the regulations; (b) make amendments to the Criminal Justice and Immigration Act 2008 or the Sentencing Act 2020 in consequence of the amendments made by paragraph (a)",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "(a) the Secretary of State has made regulations under section 208(1) which make provision permitted by subsection (3), and (b) the Secretary of State subsequently makes regulations under section 208(1) which bring any of the relevant YRO provisions into force without making provision permitted by subsection (3).",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/161"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/161",
+        "type": "PERMITTED",
+        "for": "A statutory instrument containing regulations under section 208(1) which make provision permitted by subsection (8) (whether alone or with other provision)",
+        "to": "not be made",
+        "conditions": [
+            {
+                "type": "UNLESS",
+                "text": "a draft of the instrument has been laid before and approved by a resolution of each House of Parliament.",
+                "section": "section-161"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/163",
+        "type": "PERMITTED",
+        "for": "The Secretary of State or the manager of a secure children’s home",
+        "to": "temporarily release a person who is detained in the home in pursuance of— (a) a sentence of detention, (b) a detention and training order or a further detention order, (c) a detention order under Schedule 5A to the Policing and Crime Act 2009 (breach of gang injunction), or (d) a detention order under Schedule 2 to the Anti-social Behaviour, Crime and Policing Act 2014 (breach of anti-social behaviour injunction).",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/163",
+        "type": "PERMITTED",
+        "for": "A temporary release under this section",
+        "to": "be granted subject to conditions.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/163",
+        "type": "PERMITTED",
+        "for": "A person who is temporarily released under this section",
+        "to": "be recalled at any time by the Secretary of State or the manager of the home (irrespective of which of those granted the release).",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/163",
+        "type": "OBLIGATORY",
+        "for": "A manager of a secure children’s home",
+        "to": "have regard to any guidance issued by the Secretary of State about the use of powers of temporary release under this section.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/166",
+        "type": "PERMITTED",
+        "for": "The Secretary of State",
+        "to": "exercise the power in section 208(1) so as to bring section 165 into force— (a) for all purposes, and (b) in relation to the whole of England and Wales",
+        "conditions": [
+            {
+                "type": "ONLY IF",
+                "text": "regulations under section 208(1) have brought section 165 into force only— (a) for one or more specified purposes, or (b) in relation to one or more specified areas.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/166"
+            },
+            {
+                "type": "ONLY IF",
+                "text": "the Secretary of State has laid before Parliament a report on the operation of Chapter 1A of Part 11 of the Sentencing Code (inserted by section 165)— (a) for one or more of those purposes, or (b) in relation to one or more of those areas.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/166"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/166",
+        "type": "OBLIGATORY",
+        "for": "A report under subsection (3)",
+        "to": "in particular include— (a) information about the number of offenders in respect of whom serious violence reduction orders have been made; (b) information about the offences that were the basis for applications as a result of which serious violence reduction orders were made; (c) information about the exercise by constables of the powers in section 342E of the Sentencing Code (serious violence reduction orders: powers of constables); (d) an assessment of the impact of the operation of Chapter 1A of Part 11 of the Sentencing Code on people with protected characteristics (within the meaning of the Equality Act 2010); (e) an initial assessment of the impact of serious violence reduction orders on the reoffending rates of offenders in respect of whom such orders have been made; (f) an assessment of the impact on offenders of being subject to a serious violence reduction order; (g) information about the number of offences committed under section 342G of the Sentencing Code (offences relating to a serious violence reduction order) and the number of suspected offences under that section that have been investigated.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/166",
+        "type": "PERMITTED",
+        "for": "Regulations under section 208(1) which bring section 165 into force only for a specified purpose or in relation to a specified area",
+        "to": "(a) provide for section 165 to be in force for that purpose or in relation to that area for a specified period; (b) make transitional or saving provision in connection with section 165 ceasing to be in force at the end of the specified period.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/166",
+        "type": "PERMITTED",
+        "for": "Regulations containing provision by virtue of subsection (5)(a)",
+        "to": "be amended by subsequent regulations under section 208(1) so as to continue section 165 in force— (a) for the specified purpose, or (b) in relation to the specified area, for a further specified period.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/167",
+        "type": "PERMITTED",
+        "for": "Regulations under section 208(1) which bring subsection (1) into force only for a specified purpose or in relation to a specified area",
+        "to": "(a) provide for that provision to be in force for that purpose or in relation to that area for a specified period; (b) make transitional or saving provision in relation to that provision ceasing to be in force at the end of the specified period.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/167",
+        "type": "PERMITTED",
+        "for": "Regulations containing provision by virtue of subsection (2)(a)",
+        "to": "be amended by subsequent regulations under section 208(1) so as to continue subsection (1) in force for the specified purpose or in relation to the specified area for a further specified period.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/172",
+        "type": "PERMITTED",
+        "for": "The Secretary of State",
+        "to": "(a) prepare a list of countries and territories outside the United Kingdom in which the Secretary of State considers children are at a high risk of sexual abuse or sexual exploitation from United Kingdom nationals or United Kingdom residents, or (b) direct a relevant person to prepare a list of countries and territories outside the United Kingdom in which the relevant person considers children are at a high risk of sexual abuse or sexual exploitation from United Kingdom nationals or United Kingdom residents.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/172",
+        "type": "OBLIGATORY",
+        "for": "the Secretary of State",
+        "to": "lay before Parliament a list of countries and territories outside the United Kingdom in which the Secretary of State considers children are at a high risk of sexual abuse or sexual exploitation from United Kingdom nationals or United Kingdom residents",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the list is prepared by the Secretary of State.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/172"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/172",
+        "type": "OBLIGATORY",
+        "for": "a relevant person",
+        "to": "submit to the Secretary of State a list of countries and territories outside the United Kingdom in which the Secretary of State considers children are at a high risk of sexual abuse or sexual exploitation from United Kingdom nationals or United Kingdom residents",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the list is prepared by the relevant person.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/172"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/172",
+        "type": "OBLIGATORY",
+        "for": "the person who prepared a list of countries and territories outside the United Kingdom in which the Secretary of State considers children are at a high risk of sexual abuse or sexual exploitation from United Kingdom nationals or United Kingdom residents",
+        "to": "publish it as soon as reasonably practicable",
+        "conditions": [
+            {
+                "type": "AFTER",
+                "text": "the list has been laid before Parliament.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/172"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/172",
+        "type": "OBLIGATORY",
+        "for": "the person who prepared a list of countries and territories outside the United Kingdom in which the Secretary of State considers children are at a high risk of sexual abuse or sexual exploitation from United Kingdom nationals or United Kingdom residents",
+        "to": "keep it under review",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the list has been published.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/172"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/172",
+        "type": "PERMITTED",
+        "for": "the person who prepared a list of countries and territories outside the United Kingdom in which the Secretary of State considers children are at a high risk of sexual abuse or sexual exploitation from United Kingdom nationals or United Kingdom residents",
+        "to": ", from time to time, prepare a revised list",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the list has been published.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/172"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/172",
+        "type": "PERMITTED",
+        "for": "the Secretary of State",
+        "to": "direct a relevant person to exercise the function under subsection (6)",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "that function is for the time being exercisable by the Secretary of State.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/172"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/172",
+        "type": "PERMITTED",
+        "for": "the Secretary of State",
+        "to": "direct that the function under subsection (6) is to be exercisable by another relevant person or by the Secretary of State",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "that function is for the time being exercisable by a relevant person",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/172"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/172",
+        "type": "PERMITTED",
+        "for": "A list published under this section",
+        "to": "at any time be withdrawn by the Secretary of State.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/61",
+        "type": "PERMITTED",
+        "for": "The Secretary of State",
+        "to": "not issue a code of practice under section 60",
+        "conditions": [
+            {
+                "type": "UNLESS",
+                "text": "a draft of the code has been laid before and approved by a resolution of each House of Parliament.",
+                "section": "section-61"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/61",
+        "type": "PERMITTED",
+        "for": "The Secretary of State",
+        "to": "from time to time revise and reissue a code of practice under section 60.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/61",
+        "type": "OBLIGATORY",
+        "for": "The Secretary of State",
+        "to": "lay a draft of the code as proposed to be reissued before Parliament",
+        "conditions": [
+            {
+                "type": "BEFORE",
+                "text": "reissuing a code of practice.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/61"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/61",
+        "type": "PERMITTED",
+        "for": "the Secretary of State",
+        "to": "prepare another code",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "within the 40-day period, either House of Parliament resolves not to approve the code of practice laid under subsection (3)",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/61"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/61",
+        "type": "PERMITTED",
+        "for": "the Secretary of State",
+        "to": "reissue the code of practice",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "no such resolution is passed within the 40-day period",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/61"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/63",
+        "type": "PROHIBITED",
+        "for": "A person",
+        "to": "commit an offence by trespassing on land with the intention of— (a) using a dog to search for or to pursue a hare, (b) facilitating or encouraging the use of a dog to search for or to pursue a hare, or (c) enabling another person to observe the use of a dog to search for or to pursue a hare",
+        "conditions": [
+            {
+                "type": "UNLESS",
+                "text": "they had a reasonable excuse for that trespass.",
+                "section": "section-63"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/64",
+        "type": "PROHIBITED",
+        "for": "A person",
+        "to": "have an article with them in a place other than a dwelling with the intention that it will be used in the course of or in connection with the commission by any person of an offence under section 63 (trespass with intent to search for or to pursue hares with dogs etc).",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/65",
+        "type": "PERMITTED",
+        "for": "The court",
+        "to": "make an order (a “recovery order”) requiring the offender to pay all the expenses incurred by reason of the dog’s seizure and detention",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "(a) a person is convicted of an offence within subsection (5) which was committed on or after the day on which this section comes into force, (b) a dog was used in or was present at the commission of the offence, and (c) the dog was lawfully seized and detained in connection with the offence.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/65"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/66",
+        "type": "PERMITTED",
+        "for": "the court",
+        "to": "make such a recovery order whether or not it deals with the offender in any other way for the offence",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the recovery order is available for an offence",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/65"
+            },
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "(a) a person is convicted of an offence within subsection (5) which was committed on or after the day on which this section comes into force, (b) a dog was used in or was present at the commission of the offence, (c) the dog was lawfully seized and detained in connection with the offence.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/65"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/66",
+        "type": "PERMITTED",
+        "for": "The court",
+        "to": "make an order (a “disqualification order”) disqualifying the offender, for such period as the court thinks fit, from— (a) owning dogs, (b) keeping dogs, or (c) both.",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "(a) a person is convicted of an offence within subsection (9) which was committed on or after the day on which this section comes into force, and (b) a dog was used in or was present at the commission of the offence.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/66"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/66",
+        "type": "PERMITTED",
+        "for": "The disqualification order",
+        "to": "specify a period during which the offender may not make an application under section 68 to terminate the order",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/66",
+        "type": "PERMITTED",
+        "for": "The court",
+        "to": "suspend the operation of the disqualification order for such period as it thinks necessary for enabling alternative arrangements to be made in respect of the dog",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "(a) a person is convicted of an offence within subsection (9) which was committed on or after the day on which this section comes into force, and (b) a dog was used in or was present at the commission of the offence (c) it appears to the court that the offender owns or keeps a dog.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/66"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/66",
+        "type": "OBLIGATORY",
+        "for": "a court",
+        "to": "(a) give its reasons for making the order in open court, and (b) cause them to be entered in theg register of its proceedings",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the court makes a disqualification order.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/66"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/66",
+        "type": "PERMITTED",
+        "for": "the court",
+        "to": "make such an order whether or not it deals with the offender in any other way for the offence",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "a disqualification order is available for an offence.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/66"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/67",
+        "type": "PERMITTED",
+        "for": "the court",
+        "to": "order that a dog be taken into possession",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": ", on the court making a disqualification order, it appears to the court that the person to whom the order applies owns or keeps a dog contrary to the order.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/67"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/67",
+        "type": "PERMITTED",
+        "for": "a court",
+        "to": "order that all dogs owned or kept in breach of a disqualification order be taken into possession",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "a person is convicted of an offence under section 66(6) by reason of owning or keeping a dog in breach of the disqualification order.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/67"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/67",
+        "type": "OBLIGATORY",
+        "for": "An order under subsection (1) or (2)",
+        "to": "",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/67",
+        "type": "PROHIBITED",
+        "for": "an order under subsection (4)",
+        "to": "provide for the dog to be— (a) destroyed, or (b) disposed of for the purposes of vivisection.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/67",
+        "type": "PROHIBITED",
+        "for": "a court",
+        "to": "make an order for disposal of the dog under subsection (4)",
+        "conditions": [
+            {
+                "type": "UNLESS",
+                "text": "(a) it has given the owner of the dog an opportunity to be heard, or (b) it is satisfied that it is not reasonably practicable to communicate with the owner.",
+                "section": "section-67"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/67",
+        "type": "PERMITTED",
+        "for": "the owner of a dog",
+        "to": "appeal against the order to the Crown Court",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "a court makes an order under subsection (4) for the disposal of the dog.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/67"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/68",
+        "type": "PERMITTED",
+        "for": "A person who is subject to a disqualification order",
+        "to": "apply to an appropriate court for the order to be terminated.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/68",
+        "type": "PROHIBITED",
+        "for": "an application under subsection (1)",
+        "to": "be made— (a) before the end of the period of one year beginning with the date on which the disqualification order was made, (b) where a previous application under that subsection has been made in relation to the same order, before the end of the period of one year beginning with the date on which the previous application was determined, or (c) before the end of any period specified under section 66(3), or subsection (5), in relation to the order.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/68",
+        "type": "OBLIGATORY",
+        "for": "the court",
+        "to": "have regard to— (a) the character of the applicant, (b) the applicant’s conduct since the disqualification order was made, and (c) any other relevant circumstances",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "determining an application under subsection (1)",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/68"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/68",
+        "type": "PERMITTED",
+        "for": "a court",
+        "to": "specify a period during which the applicant may not make a further application under that subsection in relation to the order concerned",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the court refuses an application under subsection (1) or varies a disqualification order on such an application.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/68"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/68",
+        "type": "PERMITTED",
+        "for": "the court",
+        "to": "order an applicant to pay all or part of the costs of an application.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/69",
+        "type": "PERMITTED",
+        "for": "a court by which an order under section 67 is made",
+        "to": "(a) appoint a person to carry out, or arrange for the carrying out of, the order; (b) require any person who has possession of a dog to which the order applies to deliver it up to enable the order to be carried out; (c) give directions with respect to the carrying out of the order; (d) confer additional powers (including power to enter premises where a dog to which the order applies is being kept) for the purpose of, or in connection with, the carrying out of the order; (e) order the person who committed the offence in relation to which the order was made, or another person, to reimburse the expenses of carrying out the order.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/69",
+        "type": "PROHIBITED",
+        "for": "A person",
+        "to": "commit an offence by failing to comply with a requirement imposed under subsection (1)(b)",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/69",
+        "type": "PERMITTED",
+        "for": "directions under subsection (1)(c)",
+        "to": "(a) specify the manner in which a dog is to be disposed of, or (b) delegate the decision about the manner in which a dog is to be disposed of to a person appointed under subsection (1)(a).",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/69",
+        "type": "OBLIGATORY",
+        "for": "a court",
+        "to": "have regard (amongst other things) to— (a) the desirability of protecting the value of any dog to which the order under section 67 applies, and (b) the desirability of avoiding increasing any expenses which a person may be ordered to reimburse",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "determining how to exercise its powers under section 67 and this section.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/69"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/69",
+        "type": "OBLIGATORY",
+        "for": "a person",
+        "to": "have regard, amongst other things, to the things mentioned in subsection (5)(a) and (b)",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "determining how to exercise a power delegated under subsection (4)(b)",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/69"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/69",
+        "type": "PERMITTED",
+        "for": "any amount to which the owner is entitled as a result of sale of the dog",
+        "to": "be reduced by an amount equal to a liability by virtue of subsection (1)(e)",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the owner of a dog ordered to be disposed of under section 67 is subject to that liability.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/69"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/70",
+        "type": "PROHIBITED",
+        "for": "everyone",
+        "to": "do anything under an order under section 66 or 67 with respect to a dog",
+        "conditions": [
+            {
+                "type": "UNLESS",
+                "text": "(a) the period for giving notice of appeal against the order has expired, (b) the period for giving notice of appeal against the conviction on which the order was made has expired, and (c) if the order or conviction is the subject of an appeal, the appeal has been determined or withdrawn.",
+                "section": "section-70"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/70",
+        "type": "PERMITTED",
+        "for": "a court",
+        "to": "give directions about how any dog to which an order applies is to be dealt with during the suspension",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the effect of the order is suspended under subsection (1)",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/70"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/70",
+        "type": "PERMITTED",
+        "for": "directions under subsection (2)(b)",
+        "to": "",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/70",
+        "type": "PROHIBITED",
+        "for": "a person",
+        "to": "commit an offence by failing to comply with a requirement imposed under subsection (3)(d)",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/71",
+        "type": "OBLIGATORY",
+        "for": "The Secretary of State",
+        "to": "(a) prepare and publish a report— (i) about the nature and prevalence of the conduct described in subsection (2), and (ii) setting out any steps Her Majesty’s Government has taken or intends to take in relation to the matters referred to in sub-paragraph (i), and (b) lay the report before Parliament",
+        "conditions": [
+            {
+                "type": "BEFORE",
+                "text": "the end of the relevant period.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/71"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/72",
+        "type": "OBLIGATORY",
+        "for": "The Secretary of State",
+        "to": "(a) prepare and publish a response to Recommendation 8 of the Law Commission report on hate crime (adding sex or gender as a protected characteristic for the purposes of aggravated offences and enhanced sentencing), and (b) lay the response before Parliament",
+        "conditions": [
+            {
+                "type": "BEFORE",
+                "text": "the end of the period of 12 months beginning with the day on which this Act is passed.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/72"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/78",
+        "type": "PROHIBITED",
+        "for": "A person",
+        "to": "commit an offence by (i) doing an act, or (ii) omitting to do an act that they are required to do by any enactment or rule of law, and the person’s act or omission— (i) creates a risk of, or causes, serious harm to the public or a section of the public, or (ii) obstructs the public or a section of the public in the exercise or enjoyment of a right that may be exercised or enjoyed by the public at large, and and the person intends that their act or omission will have a consequence mentioned in paragraph (b) or is reckless as to whether it will have such a consequence.",
+        "conditions": [
+            {
+                "type": "UNLESS",
+                "text": "they had a reasonable excuse for the act or omission mentioned in paragraph (a) of that subsection or this does not concerns (a) any act or omission which occurred before the coming into force of those subsections, or (b) any act or omission which began before the coming into force of those subsections and continues after their coming into force.",
+                "section": "section-78"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/79",
+        "type": "PERMITTED",
+        "for": "a senior police officer",
+        "to": "give directions imposing on the person organising or carrying on the protest such conditions as appear to the officer necessary to prevent such disruption or impact",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the senior police officer, having regard to the time or place at which and the circumstances in which any one-person protest in England and Wales is being carried on or is intended to be carried on, reasonably believes— (a) that the noise generated by the person carrying on the protest may result in serious disruption to the activities of an organisation which are carried on in the vicinity of the protest, or (b) that— (i) the noise generated by the person carrying on the protest may have a relevant impact on persons in the vicinity of the protest, and (ii) that impact may be significant.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/79"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/79",
+        "type": "PERMITTED",
+        "for": "a senior police officer",
+        "to": "also have regard under subsection (1) to its route or proposed route",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the senior police officer, having regard to the time or place at which and the circumstances in which any one-person protest in England and Wales is being carried on or is intended to be carried on, reasonably believes— (a) that the noise generated by the person carrying on the protest may result in serious disruption to the activities of an organisation which are carried on in the vicinity of the protest, or (b) that— (i) the noise generated by the person carrying on the protest may have a relevant impact on persons in the vicinity of the protest, and (ii) that impact may be significant.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/79"
+            },
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the one-person protest is moving, or is intended to move, from place to place.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/79"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/168",
+        "type": "OBLIGATORY",
+        "for": "a chief officer of police",
+        "to": "give a direction by virtue of subsection (5)(b) in writing.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/79",
+        "type": "PROHIBITED",
+        "for": "A person (“P”)",
+        "to": "(a) organise or carry on a one-person protest, (b) fail to comply with a condition imposed under this section, and (c) at the time P fails to comply with the condition, know or ought to know that the condition has been imposed.",
+        "conditions": [
+            {
+                "type": "UNLESS",
+                "text": "the failure arose from circumstances beyond the person’s control.",
+                "section": "section-79"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/79",
+        "type": "PROHIBITED",
+        "for": "A person",
+        "to": "incite another to commit an offence under subsection (10)",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/79",
+        "type": "PERMITTED",
+        "for": "The Secretary of State",
+        "to": "by regulations amend subsection (6) for the purposes of making provision about the meaning for the purposes of this section of serious disruption to the activities of an organisation which are carried on in the vicinity of a one-person protest.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/79",
+        "type": "PERMITTED",
+        "for": "Regulations under subsection (16)",
+        "to": "",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/79",
+        "type": "OBLIGATORY",
+        "for": "Regulations under subsection (16)",
+        "to": "be made by statutory instrument",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/79",
+        "type": "PERMITTED",
+        "for": "Regulations under subsection (16)",
+        "to": "make incidental, supplementary, consequential, transitional, transitory or saving provision, including provision which makes consequential amendments to this Part.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/79",
+        "type": "PROHIBITED",
+        "for": "A statutory instrument containing regulations under subsection (16)",
+        "to": "be made",
+        "conditions": [
+            {
+                "type": "UNLESS",
+                "text": "a draft of the instrument has been laid before and approved by a resolution of each House of Parliament.",
+                "section": "section-79"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/79",
+        "type": "OBLIGATORY",
+        "for": "The Secretary of State",
+        "to": "(a) prepare and publish a report on the operation of section 14ZA of the Public Order Act 1986, and (b) lay the report before Parliament",
+        "conditions": [
+            {
+                "type": "BEFORE",
+                "text": "the end of the period of 2 years beginning with the day on which this section comes into force.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/79"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/22",
+        "type": "OBLIGATORY",
+        "for": "Regulations under this Chapter",
+        "to": "be made by statutory instrument.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/22",
+        "type": "PERMITTED",
+        "for": "Regulations under this Chapter",
+        "to": "make different provision for different purposes or areas.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/22",
+        "type": "PERMITTED",
+        "for": "Regulations under this Chapter",
+        "to": "make consequential, supplementary, incidental, transitional, transitory or saving provision.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/22",
+        "type": "OBLIGATORY",
+        "for": "The Secretary of State",
+        "to": "consult the Welsh Ministers",
+        "conditions": [
+            {
+                "type": "BEFORE",
+                "text": "making regulations under this Chapter",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/22"
+            },
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "and to extent that the regulations make provision that applies in relation to a devolved Welsh authority within the meaning of the Government of Wales Act 2006 (see section 157A of that Act).",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/22"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/22",
+        "type": "OBLIGATORY",
+        "for": "A statutory instrument containing regulations under this Chapter",
+        "to": "not be made",
+        "conditions": [
+            {
+                "type": "UNLESS",
+                "text": "a draft of the instrument has been laid before and approved by a resolution of each House of Parliament.",
+                "section": "section-22"
+            },
+            {
+                "type": "UNLESS",
+                "text": "the statutory instrument contains only one or more of the following— (a) regulations under section 8(10); (b) regulations under section 9(10); (c) regulations under section 11(7) which make provision for the removal of an entry in Schedule 1 where the authority concerned has ceased to exist; (d) regulations under section 11(7) which make provision for the modification of an entry in Schedule 1 in consequence of a change of name or transfer of functions; (e) regulations under section 12(3) which make provision for the removal of an entry in Schedule 2 where the authority concerned has ceased to exist; (f) regulations under section 12(3) which make provision for the modification of an entry in Schedule 2 in consequence of a change of name or transfer of functions; (g) regulations under section 14(4).",
+                "section": "section-22"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/27",
+        "type": "OBLIGATORY",
+        "for": "a review partner",
+        "to": "join with the other relevant review partners in respect of the death of a person in arranging for there to be a review under this section of the person’s death",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the review partner considers that— (a) the death of was, or is likely to have been, a qualifying homicide, (b) the death occurred, or is likely to have occurred, in England or Wales, (c) such other conditions as the Secretary of State may specify by regulations are satisfied, including, for example, conditions relating to— (i) the circumstances of or relating to the death, (ii) the circumstances or history of the person who died, or (iii) the circumstances or history of other persons with a connection to the death, and (d) the review partner is one of the relevant review partners in respect of the death (see section 25).",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/24"
+            },
+            {
+                "type": "UNLESS",
+                "text": "the review is in relation to a death if— (a) a child death review must or may be arranged in relation to the death (see section 16M(1) and (2) of the Children Act 2004), (b) the death may be the subject of a domestic homicide review (see section 9 of the Domestic Violence, Crime and Victims Act 2004), or (c) a safeguarding adults review must or may be established in relation to the death (see section 44(1) and (4) of the Care Act 2014).",
+                "section": "section-27"
+            },
+            {
+                "type": "UNLESS",
+                "text": "regulations under section 135(4)(a) of the Social Services and Well-being (Wales) Act 2014 (anaw 4) require a Safeguarding Board to undertake a review of the death.",
+                "section": "section-26"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/24",
+        "type": "PERMITTED",
+        "for": "a review partner",
+        "to": "not arrange for there to be a review under this section of the death (and a review may accordingly be discontinued)",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the review partner considers, on further information, that any of the conditions mentioned in subsection (1)(a) to (c) is not satisfied in the case of the person’s death.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/24"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/24",
+        "type": "PERMITTED",
+        "for": "a review partner",
+        "to": "not arrange for there to be a review under this section of the death",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the review partner considers, on further information, that the condition mentioned in subsection (1)(d) is not satisfied in the case of the person’s death",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/24"
+            },
+            {
+                "type": "UNLESS",
+                "text": "such a review of the death has already started to take place under arrangements made by the review partner and other review partners.",
+                "section": "section-24"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/24",
+        "type": "PERMITTED",
+        "for": "a review partner",
+        "to": "not arrange for there to be a review under this section of a person’s death",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "such a review of the death has already taken place, or started to take place, under arrangements made by other review partners.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/24"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/24",
+        "type": "PERMITTED",
+        "for": "The Secretary of State",
+        "to": "by regulations— (a) amend this section so as to alter the meaning of “qualifying homicide”, and (b) make such consequential amendments of this Chapter as appear to the Secretary of State to be appropriate.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/25",
+        "type": "PERMITTED",
+        "for": "The Secretary of State",
+        "to": "by regulations make provision for identifying which review partners are to be the relevant review partners in respect of a person’s death.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/25",
+        "type": "PERMITTED",
+        "for": "The regulations",
+        "to": "provide that the relevant review partners in respect of a person’s death are— (a) a chief officer of police for a police area in England or Wales of a description specified in the regulations, (b) a local authority of a description specified in the regulations or, in a case of a description specified in the regulations, a county council and a district council of a description specified in the regulations, and (c) an integrated care board or a local health board of a description specified in the regulations.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/25",
+        "type": "PERMITTED",
+        "for": "The regulations",
+        "to": "include provision for identifying the relevant review partners in respect of a person’s death by reference to other matters, including— (a) the last known place of residence of the person who died; (b) an earlier place of residence of the person who died; (c) the place of residence of the person who caused or is likely to have caused, or of any of the persons who caused or are likely to have caused, the person’s death; (d) the police area in England or Wales of the police force that is investigating or has investigated the person’s death.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/25",
+        "type": "PERMITTED",
+        "for": "The regulations",
+        "to": "(a) provide for a group of review partners to agree with another group of review partners to be the relevant review partners in respect of a person’s death instead of that other group; (b) provide for review partners of a description specified in the regulations to agree between them which of them is a relevant review partner in respect of a person’s death; (c) provide for the Secretary of State to give a direction specifying which review partners are the relevant review partners in respect of a person’s death.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/26",
+        "type": "PERMITTED",
+        "for": "The Secretary of State",
+        "to": "by regulations make provision about the duty in section 24(1) not applying in the case of a death which may or must be investigated under arrangements made by NHS bodies with respect to deaths caused by persons who are receiving or have received any health services relating to mental health.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/26",
+        "type": "PERMITTED",
+        "for": "The Secretary of State",
+        "to": "by regulations make provision about the duty in section 24(1) not applying in the case of a death, caused by a person who is receiving or has received any health services relating to mental health, where there may be a review of, or investigation into, the provision of that health care under section 70 of the Health and Social Care (Community Health and Standards) Act 2003.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/27",
+        "type": "OBLIGATORY",
+        "for": "a review partner",
+        "to": "notify the Secretary of State before the end of the notification period of one of the following— (a) that the review partner is under a duty to arrange for there to be a review under section 24 of the person’s death, (b) that the review partner is not under that duty in respect of the death, or (c) that the review partner has not been able to take a decision on the matter.",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the review partner becomes aware of qualifying circumstances in relation to a person’s death",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/27"
+            },
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the disclosure of information does not breach— (a) any obligation of confidence owed by the person making the disclosure, or (b) any other restriction on the disclosure of information (however imposed).",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/30"
+            },
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the disclosure of information— (a) would contravene the data protection legislation (but in determining whether a disclosure would do so, the duty imposed or power conferred by the section in question is to be taken into account), or (b) is prohibited by any of Parts 1 to 7 or Chapter 1 of Part 9 of the Investigatory Powers Act 2016.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/30"
+            },
+            {
+                "type": "UNLESS",
+                "text": "when the review partner becomes aware of qualifying circumstances in relation to a person’s death, the review partner is also aware that no duty in section 24(1) arises in respect of the death because of section 24(5) or 26.",
+                "section": "section-27"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/27",
+        "type": "OBLIGATORY",
+        "for": "a review partner",
+        "to": "notify the Secretary of State of the review partner’s decision on the matter once it has been taken",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the review partner gives a notification under subsection (1)(c).",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/27"
+            },
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the disclosure of information does not breach— (a) any obligation of confidence owed by the person making the disclosure, or (b) any other restriction on the disclosure of information (however imposed).",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/30"
+            },
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the disclosure of information— (a) would contravene the data protection legislation (but in determining whether a disclosure would do so, the duty imposed or power conferred by the section in question is to be taken into account), or (b) is prohibited by any of Parts 1 to 7 or Chapter 1 of Part 9 of the Investigatory Powers Act 2016.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/30"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/27",
+        "type": "OBLIGATORY",
+        "for": "a review partner",
+        "to": "notify the Secretary of State of the decision that the review partner is not under a duty to arrange a review under section 24 of a death (see section 24(3) and (4))",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the review partner— (a) notifies the Secretary of State that the review partner is under that duty, but (b) before the review starts to take place, decides that he is not.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/27"
+            },
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the disclosure of information does not breach— (a) any obligation of confidence owed by the person making the disclosure, or (b) any other restriction on the disclosure of information (however imposed).",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/30"
+            },
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the disclosure of information— (a) would contravene the data protection legislation (but in determining whether a disclosure would do so, the duty imposed or power conferred by the section in question is to be taken into account), or (b) is prohibited by any of Parts 1 to 7 or Chapter 1 of Part 9 of the Investigatory Powers Act 2016.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/30"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/27",
+        "type": "OBLIGATORY",
+        "for": "a review partner",
+        "to": "notify the Secretary of State",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "a review under section 24 of a death is discontinued because the review partner considers that a condition mentioned in section 24(1)(a) to (c) is not satisfied in relation to the death (see section 24(3)).",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/27"
+            },
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the disclosure of information does not breach— (a) any obligation of confidence owed by the person making the disclosure, or (b) any other restriction on the disclosure of information (however imposed).",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/30"
+            },
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the disclosure of information— (a) would contravene the data protection legislation (but in determining whether a disclosure would do so, the duty imposed or power conferred by the section in question is to be taken into account), or (b) is prohibited by any of Parts 1 to 7 or Chapter 1 of Part 9 of the Investigatory Powers Act 2016.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/30"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/27",
+        "type": "OBLIGATORY",
+        "for": "a review partner",
+        "to": "notify the Secretary of State of the decision that the review partner is under a duty to arrange a review under section 24 of a death",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "(a) the review partner notifies the Secretary of State that he is not under that duty, but (b) afterwards decides that he is.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/27"
+            },
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the disclosure of information does not breach— (a) any obligation of confidence owed by the person making the disclosure, or (b) any other restriction on the disclosure of information (however imposed).",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/30"
+            },
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the disclosure of information— (a) would contravene the data protection legislation (but in determining whether a disclosure would do so, the duty imposed or power conferred by the section in question is to be taken into account), or (b) is prohibited by any of Parts 1 to 7 or Chapter 1 of Part 9 of the Investigatory Powers Act 2016.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/30"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/28",
+        "type": "OBLIGATORY",
+        "for": "review partners that arranged a review under section 24 of a person’s death",
+        "to": "co-operate in and contribute to the carrying out of the review",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "a review under section 24 of a person’s death takes place.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/28"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/28",
+        "type": "OBLIGATORY",
+        "for": "review partners",
+        "to": "inform a person to take action as mentioned in subsection (2)(b)",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the review partners consider that it would be appropriate for that person to take action as mentioned in subsection (2)(b)",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/28"
+            },
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the disclosure of information does not breach— (a) any obligation of confidence owed by the person making the disclosure, or (b) any other restriction on the disclosure of information (however imposed).",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/30"
+            },
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the disclosure of information— (a) would contravene the data protection legislation (but in determining whether a disclosure would do so, the duty imposed or power conferred by the section in question is to be taken into account), or (b) is prohibited by any of Parts 1 to 7 or Chapter 1 of Part 9 of the Investigatory Powers Act 2016.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/30"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/28",
+        "type": "OBLIGATORY",
+        "for": "review partners",
+        "to": "prepare a report on the review and send it to the Secretary of State.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/28",
+        "type": "OBLIGATORY",
+        "for": "the report",
+        "to": "include— (a) the findings of the review, (b) any conclusions drawn by the review partners, and (c) recommendations made in light of those findings and conclusions (including those referred to in subsection (3)).",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/28",
+        "type": "PROHIBITED",
+        "for": "review partners",
+        "to": "include in the report sent to the Secretary of State material that they consider— (a) might jeopardise the safety of any person, or (b) might prejudice the investigation or prosecution of an offence.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/28",
+        "type": "OBLIGATORY",
+        "for": "The Secretary of State",
+        "to": "publish, or make arrangements for the publication of, the report",
+        "conditions": [
+            {
+                "type": "UNLESS",
+                "text": "the Secretary of State considers it inappropriate for the report to be published.",
+                "section": "section-28"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/28",
+        "type": "OBLIGATORY",
+        "for": "the Secretary of State",
+        "to": "publish, or make arrangements for the publication of, so much of the contents of the report as the Secretary of State considers appropriate to be published",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the Secretary of State considers it inappropriate for the report to be published.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/28"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/29",
+        "type": "PERMITTED",
+        "for": "A review partner",
+        "to": "request a person to provide information specified in the request to the review partner or another review partner",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the disclosure of information does not breach— (a) any obligation of confidence owed by the person making the disclosure, or (b) any other restriction on the disclosure of information (however imposed).",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/30"
+            },
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the disclosure of information— (a) would contravene the data protection legislation (but in determining whether a disclosure would do so, the duty imposed or power conferred by the section in question is to be taken into account), or (b) is prohibited by any of Parts 1 to 7 or Chapter 1 of Part 9 of the Investigatory Powers Act 2016.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/30"
+            },
+            {
+                "type": "UNLESS",
+                "text": "the person would disclose information that the person could not be compelled to disclose in proceedings before the High Court.",
+                "section": "section-30"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/29",
+        "type": "PERMITTED",
+        "for": "A review partner",
+        "to": "make a request to a person under this section",
+        "conditions": [
+            {
+                "type": "ONLY IF",
+                "text": "the conditions in subsections (3) and (4) are satisfied.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/29"
+            },
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the disclosure of information does not breach— (a) any obligation of confidence owed by the person making the disclosure, or (b) any other restriction on the disclosure of information (however imposed)",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/30"
+            },
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the disclosure of information— (a) would contravene the data protection legislation (but in determining whether a disclosure would do so, the duty imposed or power conferred by the section in question is to be taken into account), or (b) is prohibited by any of Parts 1 to 7 or Chapter 1 of Part 9 of the Investigatory Powers Act 2016.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/30"
+            },
+            {
+                "type": "UNLESS",
+                "text": "the person would disclose information that the person could not be compelled to disclose in proceedings before the High Court.",
+                "section": "section-30"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/29",
+        "type": "OBLIGATORY",
+        "for": "a person to whom a request under this section is made",
+        "to": "comply with the request",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the disclosure of information does not breach— (a) any obligation of confidence owed by the person making the disclosure, or (b) any other restriction on the disclosure of information (however imposed)",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/30"
+            },
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the disclosure of information— (a) would contravene the data protection legislation (but in determining whether a disclosure would do so, the duty imposed or power conferred by the section in question is to be taken into account), or (b) is prohibited by any of Parts 1 to 7 or Chapter 1 of Part 9 of the Investigatory Powers Act 2016.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/30"
+            },
+            {
+                "type": "UNLESS",
+                "text": "the person would disclose information that the person could not be compelled to disclose in proceedings before the High Court",
+                "section": "section-30"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/29",
+        "type": "OBLIGATORY",
+        "for": "a review partner that made a request under this section",
+        "to": "enforce the duty under subsection (5) against the person by making an application to the High Court or the county court for an injunction",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the disclosure of information does not breach— (a) any obligation of confidence owed by the person making the disclosure, or (b) any other restriction on the disclosure of information (however imposed).",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/30"
+            },
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the disclosure of information— (a) would contravene the data protection legislation (but in determining whether a disclosure would do so, the duty imposed or power conferred by the section in question is to be taken into account), or (b) is prohibited by any of Parts 1 to 7 or Chapter 1 of Part 9 of the Investigatory Powers Act 2016.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/30"
+            },
+            {
+                "type": "UNLESS",
+                "text": "the person would disclose information that the person could not be compelled to disclose in proceedings before the High Court",
+                "section": "section-30"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/29",
+        "type": "PERMITTED",
+        "for": "A review partner",
+        "to": "provide information to another review partner for the purpose of enabling or assisting the performance of functions under sections 24 to 28",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the disclosure of information does not breach— (a) any obligation of confidence owed by the person making the disclosure, or (b) any other restriction on the disclosure of information (however imposed).",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/30"
+            },
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the disclosure of information— (a) would contravene the data protection legislation (but in determining whether a disclosure would do so, the duty imposed or power conferred by the section in question is to be taken into account), or (b) is prohibited by any of Parts 1 to 7 or Chapter 1 of Part 9 of the Investigatory Powers Act 2016.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/30"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/31",
+        "type": "PERMITTED",
+        "for": "The Secretary of State",
+        "to": "by regulations make provision enabling the relevant review partners in respect of a person’s death to act jointly to appoint— (a) one of themselves, or (b) another person, to carry out on their behalf, in relation to the person’s death, one or more of the functions specified in the regulations.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/31",
+        "type": "PERMITTED",
+        "for": "Regulations under subsection (1)",
+        "to": "specify some or all of the functions of a review partner under section 28 or 29 relating to a review under section 24 or a report on the review.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/31",
+        "type": "PERMITTED",
+        "for": "The Secretary of State",
+        "to": "by regulations make provision enabling— (a) a county council, and (b) a district council for an area that is within the area of the county council, to agree that one of them carry out on behalf of the other one or more of the functions specified in the regulations.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/31",
+        "type": "PERMITTED",
+        "for": "Regulations under subsection (3)",
+        "to": "specify some or all of the functions of a review partner under sections 24 to 29.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/32",
+        "type": "OBLIGATORY",
+        "for": "Review partners",
+        "to": "have regard to any guidance issued by the Secretary of State in connection with functions conferred on them under sections 24 to 31.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/32",
+        "type": "OBLIGATORY",
+        "for": "the Secretary of State",
+        "to": "consult— (a) persons appearing to the Secretary of State to represent review partners, (b) the Welsh Ministers, so far as the proposed guidance relates to a devolved Welsh authority, and (c) such other persons as the Secretary of State considers appropriate",
+        "conditions": [
+            {
+                "type": "BEFORE",
+                "text": "issuing guidance under this section.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/32"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/32",
+        "type": "OBLIGATORY",
+        "for": "the Secretary of State",
+        "to": "lay a copy of the guidance before Parliament",
+        "conditions": [
+            {
+                "type": "AFTER",
+                "text": "issuing guidance under this section.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/32"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/34",
+        "type": "PERMITTED",
+        "for": "The Secretary of State",
+        "to": "exercise the power in section 208(1) so as to bring sections 24 to 30, 32 and 33 into force— (a) for all purposes, and (b) in relation to the whole of England and Wales,",
+        "conditions": [
+            {
+                "type": "ONLY IF",
+                "text": "regulations under section 208(1) have brought some or all of sections 24 to 30, 32 and 33 into force only— (a) for one or more specified purposes, or (b) in relation to one or more specified areas.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/34"
+            },
+            {
+                "type": "ONLY IF",
+                "text": "the Secretary of State has laid before Parliament a report on the operation of some or all of the provisions of sections 24 to 31— (a) for one or more of those purposes, or (b) in relation to one or more of those areas.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/34"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/34",
+        "type": "PERMITTED",
+        "for": "Regulations under section 208(1) which bring any provision of sections 24 to 30, 32 and 33 into force only for a specified purpose or in relation to a specified area",
+        "to": "(a) provide for that provision to be in force for that purpose or in relation to that area for a specified period; (b) make transitional or saving provision in connection with that provision ceasing to be in force at the end of the specified period.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/34",
+        "type": "PERMITTED",
+        "for": "Regulations containing provision by virtue of subsection (4)(a)",
+        "to": "be amended by subsequent regulations under section 208(1) so as to continue any provision of sections 24 to 30, 32 and 33 in force— (a) for the specified purpose, or (b) in relation to the specified area, for a further specified period.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/22",
+        "type": "OBLIGATORY",
+        "for": "Regulations under this Chapter",
+        "to": "be made by statutory instrument.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/35",
+        "type": "PERMITTED",
+        "for": "Regulations under this Chapter",
+        "to": "make different provision for different purposes and different provision for different areas.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/22",
+        "type": "PERMITTED",
+        "for": "Regulations under this Chapter",
+        "to": "make consequential, supplementary, incidental, transitional, transitory or saving provision.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/22",
+        "type": "PROHIBITED",
+        "for": "A statutory instrument containing regulations under this Chapter",
+        "to": "be made",
+        "conditions": [
+            {
+                "type": "UNLESS",
+                "text": "(a) a draft of the instrument has been laid before and approved by a resolution of each House of Parliament or (b) the statutory instrument contain only regulations under section 26(2) or (4)",
+                "section": "section-22"
+            },
+            {
+                "type": "UNLESS",
+                "text": "the statutory instrument contains only regulations under section 26(2) or (4).",
+                "section": "section-22"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/36",
+        "type": "PERMITTED",
+        "for": "The Secretary of State",
+        "to": "by regulations— (a) amend the definition of “review partner”, and (b) make such consequential amendments of this Chapter as appear to the Secretary of State to be appropriate.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/36",
+        "type": "OBLIGATORY",
+        "for": "the Secretary of State",
+        "to": "consult— (a) such persons as appear to the Secretary of State to represent review partners, (b) the Welsh Ministers, so far as the proposed regulations relate to a devolved Welsh authority, and (c) such other persons as the Secretary of State considers appropriate",
+        "conditions": [
+            {
+                "type": "BEFORE",
+                "text": "making regulations under subsection (2).",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/36"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/37",
+        "type": "PERMITTED",
+        "for": "An authorised person",
+        "to": "extract information stored on an electronic device from that device",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "(a) a user of the device has voluntarily provided the device to an authorised person, and (b) that user has agreed to the extraction of information from the device by an authorised person.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/37"
+            },
+            {
+                "type": "ONLY IF",
+                "text": "the purpose is (a) preventing, detecting, investigating or prosecuting crime, (b) helping to locate a missing person, or (c) protecting a child or an at-risk adult from neglect or physical, mental or emotional harm.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/37"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/37",
+        "type": "PERMITTED",
+        "for": "An authorised person",
+        "to": "exercise the power in subsection (1)",
+        "conditions": [
+            {
+                "type": "ONLY IF",
+                "text": "(a) in a case where the authorised person proposes to exercise the power for a purpose within subsection (2)(a), the authorised person reasonably believes that information stored on the electronic device is relevant to a reasonable line of enquiry which is being, or is to be, pursued by an authorised person, (b) in a case where the authorised person proposes to exercise the power for a purpose within subsection (2)(b) or (c), the authorised person reasonably believes that information stored on the electronic device is relevant to that purpose, and (c) in any case, the authorised person is satisfied that exercise of the power is necessary and proportionate to achieve the purpose within subsection (2) for which the person proposes to exercise the power.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/37"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/37",
+        "type": "OBLIGATORY",
+        "for": "An authorised person",
+        "to": "have regard to the code of practice for the time being in force under section 42",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "exercising, or deciding whether to exercise, the power in subsection (1).",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/37"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/38",
+        "type": "PERMITTED",
+        "for": "a person who is not a user of an electronic device but is listed in subsection (3)",
+        "to": "(a) voluntarily provide the device to an authorised person for the purposes of section 37(1), and (b) agree for those purposes to the extraction of information from the device by an authorised person",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "a child is a user of the device.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/38"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/38",
+        "type": "OBLIGATORY",
+        "for": "an authorised person (“A”)",
+        "to": "inform a person within subsection (3)(a) that A has exercised the power",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "A exercises the power under section 37(1) as a result of action taken under subsection (2) by a person within subsection (3)(b)",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/38"
+            },
+            {
+                "type": "UNLESS",
+                "text": "A considers that it is not appropriate to do so.",
+                "section": "section-38"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/38",
+        "type": "PERMITTED",
+        "for": "a person who is not a user of an electronic device",
+        "to": "(a) voluntarily provide the device to an authorised person for the purposes of section 37(1), and (b) agree for those purposes to the extraction of information from the device by an authorised person",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "a user of the electronic device is an adult without capacity.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/38"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/38",
+        "type": "PERMITTED",
+        "for": "any other user of an electronic device who is not a child or an adult without capacity",
+        "to": "(a) voluntarily providing the device to an authorised person for the purposes of section 37(1), or (b) agreeing for those purposes to the extraction of information from the device by an authorised person.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/39",
+        "type": "PROHIBITED",
+        "for": "An authorised person",
+        "to": "place undue pressure on P to provide the device or agree to the extraction of information from it.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/39",
+        "type": "OBLIGATORY",
+        "for": "An authorised person",
+        "to": "give P notice in writing— (a) specifying or describing the information that is sought, (b) specifying the reason why the information is sought, (c) specifying how the information will be dealt with once it has been extracted, (d) stating that P may refuse to provide the device or agree to the extraction of information from it, and (e) stating that the investigation or enquiry for the purposes of which the information is sought will not be brought to an end merely because P refuses to provide the device or agree to the extraction of information from it.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/39",
+        "type": "OBLIGATORY",
+        "for": "A person (“P”)",
+        "to": "confirmed in writing that P has— (a) voluntarily provided the device to an authorised person, and (b) agreed to the extraction of information from the device by an authorised person",
+        "conditions": [
+            {
+                "type": "UNLESS",
+                "text": "P was unable to provide that confirmation in writing as a result of P’s physical impairment or lack of literacy skills.",
+                "section": "section-39"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/39",
+        "type": "OBLIGATORY",
+        "for": "A person (“P”)",
+        "to": "give confirmation orally",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "P was unable to provide that confirmation in writing as a result of P’s physical impairment or lack of literacy skills",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/39"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/39",
+        "type": "OBLIGATORY",
+        "for": "an authorised person",
+        "to": "record P’s confirmation in writing",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "P was unable to provide that confirmation in writing as a result of P’s physical impairment or lack of literacy skills",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/39"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/39",
+        "type": "OBLIGATORY",
+        "for": "an authorised person",
+        "to": "give P a copy of that confirmation (in hard copy or electronic form)",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "P’s confirmation was given in writing and in hard copy form",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/39"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/39",
+        "type": "OBLIGATORY",
+        "for": "an authorised person",
+        "to": "give P a copy of the record of that confirmation (in hard copy or electronic form)",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "P’s confirmation was given orally.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/39"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/40",
+        "type": "PERMITTED",
+        "for": "an authorised person",
+        "to": "exercise the power in section 37(1) to extract information stored on an electronic device from that device even though— (a) the device has not been voluntarily provided to an authorised person by a user of the device, or (b) no user of the device has agreed to the extraction of information from the device by an authorised person.",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "any of the following conditions are met: (2) (a) a person who was a user of the electronic device has died, and (b) the person was a user of the device immediately before their death. (3) (a) a user of the electronic device is a child or an adult without capacity, and (b) an authorised person reasonably believes that the user’s life is at risk or there is a risk of serious harm to the user. (4) (a) a person who was a user of the electronic device is missing, (b) the person was a user of the device immediately before they went missing, and (c) an authorised person reasonably believes that the person’s life is at risk or there is a risk of serious harm to the person.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/40"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/202",
+        "type": "OBLIGATORY",
+        "for": "the first regulations made under section 85A(8) of the Courts Act 2003 (as inserted by section 198(1))",
+        "to": "be made without a draft of the instrument containing them having been laid before and approved by a resolution of each House of Parliament (notwithstanding section 108(3) of the Courts Act 2003).",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/202",
+        "type": "OBLIGATORY",
+        "for": "the statutory instrument containing the first regulations made under section 85A(8) of the Courts Act 2003 (as inserted by section 198(1))",
+        "to": "be laid before Parliament",
+        "conditions": [
+            {
+                "type": "AFTER",
+                "text": "being made",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/202"
+            },
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "regulations are made in reliance on subsection (2).",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/202"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/205",
+        "type": "PERMITTED",
+        "for": "The Secretary of State",
+        "to": "by regulations made by statutory instrument make provision that is consequential on this Act.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/205",
+        "type": "PERMITTED",
+        "for": "Regulations under subsection (1)",
+        "to": ", in particular, amend, repeal or revoke any enactment passed or made before, or in the same Session as, this Act.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/205",
+        "type": "PERMITTED",
+        "for": "Regulations under subsection (1)",
+        "to": "(a) make different provision for different purposes; (b) make transitional, transitory or saving provision.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/205",
+        "type": "PERMITTED",
+        "for": "A statutory instrument containing (whether alone or with any other provision) regulations under subsection (1) which amend, repeal or revoke primary legislation",
+        "to": "not be made",
+        "conditions": [
+            {
+                "type": "AFTER",
+                "text": "a draft of the instrument has been laid before, and approved by a resolution of, each House of Parliament.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/205"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/208",
+        "type": "PERMITTED",
+        "for": "Regulations under subsection (1)",
+        "to": "appoint different days for different purposes or areas.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/208",
+        "type": "PERMITTED",
+        "for": "The Secretary of State",
+        "to": "by regulations made by statutory instrument make transitional, transitory or saving provision in connection with the coming into force of any provision of this Act.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/98",
+        "type": "OBLIGATORY",
+        "for": "Diversionary and community cautions",
+        "to": "have one or more conditions attached to them.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/99",
+        "type": "PERMITTED",
+        "for": "An authorised person",
+        "to": "give a diversionary caution to a person aged 18 or over (“the offender”) in respect of an offence",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "(a) an authorised person or a prosecution authority decides— (i) that there is sufficient evidence to charge the offender with the offence, and (ii) that a diversionary caution should be given to the offender in respect of the offence; (b) the offender admits having committed the offence; (c) the offender consents to being given the caution; (d) an authorised person— (i) explains the effect of the caution to the offender, and (ii) in particular, warns the offender that failure to comply with any of the conditions attached to the caution may result in prosecution for the offence; (e) the offender signs a document which contains— (i) details of the offence, (ii) the offender’s admission to having committed the offence, (iii) the offender’s consent to being given the caution, and (iv) the conditions attached to the caution and, if the offence is an indictable-only offence: (a) in exceptional circumstances relating to the person or the offence, and (b) with the consent of the Director of Public Prosecutions.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/99"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/99",
+        "type": "PERMITTED",
+        "for": "A diversionary caution",
+        "to": "not be given in respect of an offence committed before the coming into force of this section.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/100",
+        "type": "OBLIGATORY",
+        "for": "authorised person or prosecution authority",
+        "to": "(a) make reasonable efforts, or ensure that reasonable efforts are or have been made, to obtain the views of any victim or victims of the offence, and (b) take those views into account",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "deciding what conditions to attach to a diversionary caution.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/100"
+            },
+            {
+                "type": "UNLESS",
+                "text": "it seems to the authorised person or prosecution authority— (a) the action is not one that can be attached as a condition to a diversionary caution, or (b) it would be inappropriate to do so.",
+                "section": "section-100"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/100",
+        "type": "OBLIGATORY",
+        "for": "authorised person or prosecution authority",
+        "to": "attach as a condition that it is the view of the victim or all the victims that the offender should carry out a particular action listed in the community remedy document",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "this is the view of the victim or all the victims",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/100"
+            },
+            {
+                "type": "UNLESS",
+                "text": "it seems to the authorised person or prosecution authority— (a) the action is not one that can be attached as a condition to a diversionary caution, or (b) it would be inappropriate to do so.",
+                "section": "section-100"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/1",
+        "type": "OBLIGATORY",
+        "for": "The Secretary of State",
+        "to": "(a) prepare a police covenant report, and (b) lay a copy of the report before Parliament",
+        "conditions": [
+            {
+                "type": "BEFORE",
+                "text": "the financial year ends.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/1"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/1",
+        "type": "OBLIGATORY",
+        "for": "the Secretary of State",
+        "to": "have regard in particular to— (a) the obligations of and sacrifices made by members of the police workforce, and (b) the principle that it is desirable to remove any disadvantage for members or former members of the police workforce arising from their membership or former membership",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "preparing a police covenant report",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/1"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/1",
+        "type": "OBLIGATORY",
+        "for": "the Secretary of State",
+        "to": "ensure that the views of— (a) any relevant government department, and (b) anyone else the Secretary of State considers appropriate, are sought in relation to the matters to be covered by the report",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "preparing a police covenant report",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/1"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/1",
+        "type": "OBLIGATORY",
+        "for": "A police covenant report",
+        "to": "be set out in full or summarise in the police covenant report any views obtained under subsection (4).",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/1",
+        "type": "PERMITTED",
+        "for": "The Secretary of State",
+        "to": "not include in a police covenant report a summary under subsection (5)",
+        "conditions": [
+            {
+                "type": "UNLESS",
+                "text": "the person whose views are summarised has approved the summary.",
+                "section": "section-1"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/1",
+        "type": "OBLIGATORY",
+        "for": "The Secretary of State",
+        "to": "state whether, in the Secretary of State’s opinion, in respect of any matter covered by the report, members or former members of the police workforce, or a particular description of such persons, are at a disadvantage when compared with other persons or such descriptions of other persons as the Secretary of State considers appropriate.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/1",
+        "type": "OBLIGATORY",
+        "for": "the report",
+        "to": "set out the Secretary of State’s response to the fact that the Secretary of State’s opinion is that there is any such disadvantage as mentioned in subsection (7)",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the Secretary of State has that opinion.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/1"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/9",
+        "type": "OBLIGATORY",
+        "for": "The specified authorities for a local government area",
+        "to": "collaborate with each other to prevent and reduce serious violence in the area.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/23",
+        "type": "OBLIGATORY",
+        "for": "the specified authorities for a local government area",
+        "to": "",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/8",
+        "type": "OBLIGATORY",
+        "for": "The specified authorities for a local government area",
+        "to": "ensure that the following are consulted— (a) each educational authority for the area; (b) each prison authority for the area; (c) each youth custody authority for the area.",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "preparing a strategy under this section for the area",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/9"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/8",
+        "type": "PERMITTED",
+        "for": "The specified authorities for a local government area",
+        "to": "invite participation from— (a) in the case of a strategy for a local government area in England, a person of a description for the time being prescribed by order of the Secretary of State under section 5(3) of the Crime and Disorder Act 1998; (b) in the case of a strategy for a local government area in Wales, a person of a description for the time being prescribed by order of the Welsh Ministers under section 5(3) of that Act.",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "preparing a strategy under this section for a local government area",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/8"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/8",
+        "type": "OBLIGATORY",
+        "for": "The specified authorities for a local government area",
+        "to": "(a) publish a strategy prepared under this section for the local government area (b) keep the strategy under review, and (c) from time to time prepare and implement a revised strategy",
+        "conditions": [
+            {
+                "type": "AFTER",
+                "text": "the strategy has been prepared.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/8"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/9",
+        "type": "PROHIBITED",
+        "for": "The specified authorities for a local government area",
+        "to": "include in a strategy under this section any material that the specified authorities consider— (a) might jeopardise the safety of any person, (b) might prejudice the prevention or detection of crime or the investigation or prosecution of an offence, or (c) might compromise the security of, or good order or discipline within, an institution of a kind mentioned in the first column of a table in Schedule 2.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/8",
+        "type": "PERMITTED",
+        "for": "A strategy under this section",
+        "to": "cover an area that is wider than a local government area",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "it is also prepared in the exercise of the powers in section 9.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/8"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/9",
+        "type": "PERMITTED",
+        "for": "The Secretary of State",
+        "to": "by regulations make further provision for or in connection with the publication and dissemination of a strategy under this section.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/9",
+        "type": "PERMITTED",
+        "for": "Two or more specified authorities",
+        "to": "collaborate with each other to prevent and reduce serious violence in a relevant area.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/9",
+        "type": "OBLIGATORY",
+        "for": "the specified authorities preparing a strategy under this section for a relevant area",
+        "to": "ensure that the following are consulted— (a) every other specified authority for the area; (b) each educational authority for the area; (c) each prison authority for the area; (d) each youth custody authority for the area",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "preparing the strategy.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/9"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/9",
+        "type": "PERMITTED",
+        "for": "A strategy under this section for a relevant area",
+        "to": "specify actions to be carried out by— (a) an educational authority for the area, (b) a prison authority for the area, or (c) a youth custody authority for the area.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/9",
+        "type": "PERMITTED",
+        "for": "the specified authorities for a relevant area",
+        "to": "invite participation from— (a) in the case of a strategy for a relevant area in England, an eligible person for the time being prescribed by order of the Secretary of State under section 5(3) of the Crime and Disorder Act 1998; (b) in the case of a strategy for a relevant area in Wales, an eligible person for the time being prescribed by order of the Welsh Ministers under section 5(3) of that Act; (c) in the case of a strategy for a relevant area partly in England and partly in Wales, an eligible person for the time being prescribed by order of the Secretary of State or the Welsh Ministers under section 5(3) of that Act;",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "preparing a strategy under this section for that area.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/9"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/23",
+        "type": "OBLIGATORY",
+        "for": "the specified authorities for a relevant area",
+        "to": "publish a strategy prepared under this section for the area",
+        "conditions": [
+            {
+                "type": "AFTER",
+                "text": "the strategy has been prepared.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/23"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/23",
+        "type": "PERMITTED",
+        "for": "the specified authorities for a relevant area",
+        "to": "keep under review a strategy prepared under this section for the area",
+        "conditions": [
+            {
+                "type": "AFTER",
+                "text": "the strategy has been prepared.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/23"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/23",
+        "type": "PERMITTED",
+        "for": "the specified authorities for a relevant area",
+        "to": "prepare and implement a revised strategy from time to time",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "a strategy has been prepared under this section for the area.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/9"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/9",
+        "type": "PROHIBITED",
+        "for": "A strategy under this section",
+        "to": "include any material that the specified authorities consider— (a) might jeopardise the safety of any person, (b) might prejudice the prevention or detection of crime or the investigation or prosecution of an offence, or (c) might compromise the security of, or good order or discipline within, an institution of a kind mentioned in the first column of a table in Schedule 2.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/9",
+        "type": "PERMITTED",
+        "for": "The Secretary of State",
+        "to": "by regulations make further provision for or in connection with the publication and dissemination of a strategy under this section.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/10",
+        "type": "PERMITTED",
+        "for": "The Secretary of State",
+        "to": "by regulations— (a) confer powers on a specified authority to collaborate with a prescribed person to prevent and reduce serious violence in a prescribed area; (b) confer powers on a prescribed person to collaborate with a specified authority to prevent and reduce serious violence in a prescribed area.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/10",
+        "type": "PERMITTED",
+        "for": "The Secretary of State",
+        "to": "by regulations authorise the disclosure of information— (a) by a prescribed person to any person listed in subsection (3) for the purposes of preventing and reducing serious violence in a prescribed area; (b) by any person listed in subsection (3) to a prescribed person for such purposes.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/10",
+        "type": "PERMITTED",
+        "for": "Regulations under subsection (2)",
+        "to": "provide that a disclosure under the regulations does not breach— (a) any obligation of confidence owed by the person making the disclosure, or (b) any other restriction on the disclosure of information (however imposed).",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/10",
+        "type": "OBLIGATORY",
+        "for": "Regulations under subsection (2)",
+        "to": "provide that they do not authorise a disclosure of information that— (a) would contravene the data protection legislation (but in determining whether a disclosure would do so, any power conferred by the regulations is to be taken into account), or (b) is prohibited by any of Parts 1 to 7 or Chapter 1 of Part 9 of the Investigatory Powers Act 2016;",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "they contain provision under subsection (4)(b).",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/10"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/10",
+        "type": "PROHIBITED",
+        "for": "Regulations under subsection (2)",
+        "to": "authorise— (a) the disclosure of patient information, or (b) the disclosure of personal information by a specified authority which is a health or social care authority.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/11",
+        "type": "PERMITTED",
+        "for": "The Secretary of State",
+        "to": "by regulations amend Schedule 1 by adding, modifying or removing a reference to a specified authority or a local government area.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/12",
+        "type": "PERMITTED",
+        "for": "The Secretary of State",
+        "to": "by regulations amend Schedule 2 by adding, modifying or removing an entry in a table in that Schedule.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/14",
+        "type": "PERMITTED",
+        "for": "A local policing body for a police area",
+        "to": "assist a specified authority in the exercise of— (a) the authority’s functions under or in accordance with section 8 in relation to a local government area which coincides with or falls within the police area, or (b) the authority’s functions under or in accordance with section 9 in relation to a relevant area which, or any part of which, coincides with or falls within the police area.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/14",
+        "type": "PERMITTED",
+        "for": "A local policing body for a police area",
+        "to": "(a) monitor the exercise by specified authorities of their functions under or in accordance with section 8 in relation to a local government area which coincides with or falls within the police area, or (b) monitor the exercise by specified authorities of their functions under or in accordance with section 9 in relation to a relevant area which, or any part of which, coincides with or falls within the police area.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/14",
+        "type": "PERMITTED",
+        "for": "A local policing body",
+        "to": "report its findings under subsection (2) to the Secretary of State.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/14",
+        "type": "PERMITTED",
+        "for": "The Secretary of State",
+        "to": "by regulations make provision conferring functions on a local policing body for a police area for the purposes of subsection (1).",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/14",
+        "type": "PERMITTED",
+        "for": "Provision under subsection (4)",
+        "to": "include provision— (a) for a local policing body to provide funding to a specified authority, (b) for a local policing body to arrange for meetings to be held for the purpose of assisting the exercise by specified authorities of their functions under or in accordance with section 8 or 9, (c) for the local policing body or a representative of the body to chair the meetings, and (d) for such descriptions and numbers of persons as the local policing body may specify to be required to attend the meetings.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/19",
+        "type": "OBLIGATORY",
+        "for": "a specified authority",
+        "to": "co-operate with a local policing body",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the local policing body acts under subsection (1) or (2), or under regulations under subsection (4), in relation to the exercise by the specified authority of its functions under or in accordance with section 8 or 9.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/14"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/15",
+        "type": "PERMITTED",
+        "for": "An educational, prison or youth custody authority (a “relevant authority”) for a local government area and a specified authority for that area",
+        "to": "collaborate with each other to prevent and reduce serious violence in that area.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/15",
+        "type": "PERMITTED",
+        "for": "A relevant authority for a relevant area and a specified authority for that area",
+        "to": "collaborate with each other to prevent and reduce serious violence in that area.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/15",
+        "type": "OBLIGATORY",
+        "for": "A relevant authority and a specified authority",
+        "to": "collaborate with each other as mentioned in subsection (1) or (2)",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "either the relevant authority or the specified authority requests the other to do so",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/15"
+            },
+            {
+                "type": "UNLESS",
+                "text": "or to the extent that compliance with the duty— (a) would be incompatible with any other duty of the authority imposed by an enactment (other than subsection (5)(b)), (b) would otherwise have an adverse effect on the exercise of the authority’s functions, (c) would be disproportionate to the need to prevent and reduce serious violence in the area to which the duty relates, or (d) would mean that the authority incurred unreasonable costs. and the duty is not related to— (a) the exercise by the specified authority of its function under subsection (3) (a) or (b) of section 8 of identifying the kinds or causes of serious violence in an area or its function of preparing a strategy under subsection (3) (c) of that section, or (b) the exercise by the specified authority of its function under subsection (3) (a) or (b) of section 9 of identifying the kinds or causes of serious violence in an area or its function of preparing a strategy under subsection (3) (c) of that section.",
+                "section": "section-15"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/15",
+        "type": "OBLIGATORY",
+        "for": "A relevant authority",
+        "to": "carry out any actions which are specified under section 8(5) or 9(5) as actions to be carried out by the authority",
+        "conditions": [
+            {
+                "type": "UNLESS",
+                "text": "or to the extent that compliance with the duty— (a) would be incompatible with any other duty of the authority imposed by an enactment (other than subsection (5)(b)), (b) would otherwise have an adverse effect on the exercise of the authority’s functions, (c) would be disproportionate to the need to prevent and reduce serious violence in the area to which the duty relates, or (d) would mean that the authority incurred unreasonable costs.",
+                "section": "section-15"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/15",
+        "type": "PERMITTED",
+        "for": "A relevant authority for a local government area",
+        "to": "collaborate with another relevant authority for that area to prevent and reduce serious violence in that area",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/15",
+        "type": "OBLIGATORY",
+        "for": "A relevant authority for a local government area",
+        "to": "collaborate with another relevant authority for that area for those purposes if requested by that other relevant authority to do so.",
+        "conditions": [
+            {
+                "type": "UNLESS",
+                "text": "or to the extent that compliance with the duty— (a) would be incompatible with any other duty of the authority imposed by an enactment (other than subsection (5)(b)), (b) would otherwise have an adverse effect on the exercise of the authority’s functions, (c) would be disproportionate to the need to prevent and reduce serious violence in the area to which the duty relates, or (d) would mean that the authority incurred unreasonable costs.",
+                "section": "section-15"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/15",
+        "type": "PERMITTED",
+        "for": "A relevant authority (“RA1”)",
+        "to": "collaborate with another relevant authority (“RA2”) to prevent and reduce serious violence in an area which is made up of— (a) all or part of the local government area for which RA1 is a relevant authority, and (b) all or part of the local government area for which RA2 is a relevant authority.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/16",
+        "type": "PERMITTED",
+        "for": "A person listed in subsection (2)",
+        "to": "disclose information that it holds for the purposes of its functions to another person listed in that subsection for the purposes of the exercise by the other person of its functions under or in accordance with this Chapter",
+        "conditions": [
+            {
+                "type": "UNLESS",
+                "text": "this concerns (a) the disclosure of patient information, (b) the disclosure of personal information by a specified authority which is a health or social care authority, (c) a disclosure of information that would contravene the data protection legislation (but in determining whether a disclosure would do so, the power conferred by this section is to be taken into account), or (d) a disclosure of information that is prohibited by any of Parts 1 to 7 or Chapter 1 of Part 9 of the Investigatory Powers Act 2016.",
+                "section": "section-16"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/19",
+        "type": "PERMITTED",
+        "for": "A local policing body",
+        "to": "",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/17",
+        "type": "OBLIGATORY",
+        "for": "Information requested under subsection (1)",
+        "to": "be information that is held by the person to whom the request is made and that relates to— (a) the person to whom the request was made, (b) a function of the person to whom the request was made, or (c) a person in respect of whom a function is exercisable by the person requested to supply the information.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/17",
+        "type": "OBLIGATORY",
+        "for": "a person who is requested to supply information under subsection (1)",
+        "to": "comply with the request",
+        "conditions": [
+            {
+                "type": "UNLESS",
+                "text": "the request concerns (a) the disclosure of patient information, (b) the disclosure of personal information by a specified authority which is a health or social care authority, (c) a disclosure of information that would contravene the data protection legislation (but in determining whether a disclosure would do so, the duty imposed by that subsection is to be taken into account), or (d) a disclosure of information that is prohibited by any of Parts 1 to 7 or Chapter 1 of Part 9 of the Investigatory Powers Act 2016.",
+                "section": "section-17"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/17",
+        "type": "PERMITTED",
+        "for": "Information supplied to a local policing body under this section",
+        "to": "be used by the body",
+        "conditions": [
+            {
+                "type": "ONLY IF",
+                "text": "this is done for the purpose of enabling or assisting it to exercise its functions.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/17"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/18",
+        "type": "PERMITTED",
+        "for": "The Secretary of State",
+        "to": "give directions to the authority for the purpose of securing compliance with the duty",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the Secretary of State is satisfied that— (a) a specified authority has failed to discharge a duty imposed on it by section 8, 14 (6) , 15 (3) or 17 (4) , or (b) an educational authority, prison authority or youth custody authority has failed to discharge a duty imposed on it by section 15 (3) , (4) or (5) (b) or 17 (4) .",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/18"
+            },
+            {
+                "type": "UNLESS",
+                "text": "this is done in relation to— (a) a provider of probation services if that provider is the Secretary of State, (b) the governor of a prison, young offender institution or secure training centre, or (c) the principal of a directly managed secure college as defined in paragraph 27 of Schedule 10 to the Criminal Justice and Courts Act 2015.",
+                "section": "section-18"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/18",
+        "type": "PERMITTED",
+        "for": "A direction under subsection (2)",
+        "to": "be enforced, on an application made on behalf of the Secretary of State, by a mandatory order.",
+        "conditions": [
+            {
+                "type": "UNLESS",
+                "text": "this is done in relation to— (a) a provider of probation services if that provider is the Secretary of State, (b) the governor of a prison, young offender institution or secure training centre, or (c) the principal of a directly managed secure college as defined in paragraph 27 of Schedule 10 to the Criminal Justice and Courts Act 2015.",
+                "section": "section-18"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/18",
+        "type": "OBLIGATORY",
+        "for": "The Secretary of State",
+        "to": "obtain the consent of the Welsh Ministers",
+        "conditions": [
+            {
+                "type": "BEFORE",
+                "text": "giving a direction under this section to a devolved Welsh authority within the meaning of the Government of Wales Act 2006 (see section 157A of that Act).",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/18"
+            },
+            {
+                "type": "UNLESS",
+                "text": "this is done in relation to— (a) a provider of probation services if that provider is the Secretary of State, (b) the governor of a prison, young offender institution or secure training centre, or (c) the principal of a directly managed secure college as defined in paragraph 27 of Schedule 10 to the Criminal Justice and Courts Act 2015.",
+                "section": "section-18"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/19",
+        "type": "OBLIGATORY",
+        "for": "A person listed in subsection (2)",
+        "to": "have regard to guidance issued by the Secretary of State— (a) in exercising any function conferred by or by virtue of this Chapter, or (b) in exercising any function in accordance with this Chapter.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/22",
+        "type": "OBLIGATORY",
+        "for": "The Secretary of State",
+        "to": "consult the Welsh Ministers",
+        "conditions": [
+            {
+                "type": "BEFORE",
+                "text": "issuing guidance relating to the exercise of functions as mentioned in subsection (1) by a devolved Welsh authority within the meaning of the Government of Wales Act 2006 (see section 157A of that Act).",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/19"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/19",
+        "type": "OBLIGATORY",
+        "for": "The Secretary of State",
+        "to": "lay a copy of a guidance under this section before Parliament",
+        "conditions": [
+            {
+                "type": "AFTER",
+                "text": "issuing the guidance.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/19"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/41",
+        "type": "PERMITTED",
+        "for": "An authorised person",
+        "to": "extract information stored on an electronic device from that device",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "(a) a person who was a user of the electronic device has died, and (b) the person was a user of the device immediately before their death",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/41"
+            },
+            {
+                "type": "ONLY IF",
+                "text": "the purpose is (a) an investigation into the person’s death under Chapter 1 of Part 1 of the Coroners and Justice Act 2009, (b) an inquest into the person’s death under the Coroners Act (Northern Ireland) 1959, or (c) an investigation into the person’s death by the Lord Advocate",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/41"
+            },
+            {
+                "type": "ONLY IF",
+                "text": "(a) the authorised person reasonably believes that information stored on the electronic device is relevant to a purpose within subsection (2), and (b) the authorised person is satisfied that exercise of the power is necessary and proportionate to achieve that purpose",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/41"
+            },
+            {
+                "type": "ONLY IF",
+                "text": "the person is a person listed in Part 1 of Schedule 3.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/44"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/41",
+        "type": "OBLIGATORY",
+        "for": "An authorised person",
+        "to": "have regard to the code of practice for the time being in force under section 42",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "exercising, or deciding whether to exercise, the power in subsection (1).",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/41"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/42",
+        "type": "OBLIGATORY",
+        "for": "The Secretary of State",
+        "to": "prepare a code of practice containing guidance about the exercise of the powers in sections 37(1) and 41(1).",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/42",
+        "type": "PERMITTED",
+        "for": "The code",
+        "to": "make different provision for different purposes or areas.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/42",
+        "type": "OBLIGATORY",
+        "for": "the Secretary of State",
+        "to": "consult— (a) the Information Commissioner, (b) the Scottish Ministers, (c) the Department of Justice in Northern Ireland unless this is done on or after the day appointed under Article 4(4) of the Victims and Survivors (Northern Ireland) Order 2006 (S.I. 2006/2953 (N.I. 17)) (power to revoke Article 4), (d) the Commissioner for Victims and Witnesses, (e) the Domestic Abuse Commissioner, (f) the Commission for Victims and Survivors for Northern Ireland, and (g) such other persons as the Secretary of State considers appropriate",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "preparing the code",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/42"
+            },
+            {
+                "type": "UNLESS",
+                "text": "the code is a revised code and the Secretary of State considers that the proposed revisions are insubstantial.",
+                "section": "section-42"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/42",
+        "type": "OBLIGATORY",
+        "for": "the code",
+        "to": "be brought into force by regulations made by statutory instrument.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/42",
+        "type": "PERMITTED",
+        "for": "the Secretary of State",
+        "to": "from time to time revise the code",
+        "conditions": [
+            {
+                "type": "AFTER",
+                "text": "it had come into force.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/42"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/44",
+        "type": "PERMITTED",
+        "for": "The Secretary of State",
+        "to": "by regulations made by statutory instrument amend Schedule 3— (a) so as to add a reference to a person; (b) so as to remove a reference to a person; (c) so as to modify a description of a person mentioned in that Schedule.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/44",
+        "type": "PERMITTED",
+        "for": "Regulations under subsection (4)",
+        "to": "contain transitional, transitory or saving provision.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/44",
+        "type": "OBLIGATORY",
+        "for": "The Secretary of State",
+        "to": "consult the Scottish Ministers",
+        "conditions": [
+            {
+                "type": "BEFORE",
+                "text": "making regulations under subsection (4)",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/44"
+            },
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "and so far as the regulations make provision that would be within the legislative competence of the Scottish Parliament if it were contained in an Act of that Parliament.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/44"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/44",
+        "type": "OBLIGATORY",
+        "for": "The Secretary of State",
+        "to": "consult the Department of Justice in Northern Ireland",
+        "conditions": [
+            {
+                "type": "BEFORE",
+                "text": "the Secretary of State is going to make regulations under subsection (4)",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/44"
+            },
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "and so far as the regulations make provision that, if it were contained in an Act of the Northern Ireland Assembly— (a) would be within the legislative competence of that Assembly, and (b) would not require the consent of the Secretary of State.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/44"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/44",
+        "type": "PROHIBITED",
+        "for": "a statutory instrument containing regulations under subsection (4)(a) (whether alone or with other provision)",
+        "to": "be made",
+        "conditions": [
+            {
+                "type": "UNLESS",
+                "text": "a draft of the instrument has been laid before and approved by a resolution of each House of Parliament and the statutory instrument contains regulations which— (a) remove a reference to a person from Part 1 of Schedule 3 and add a reference to that person to Part 2 or 3 of that Schedule, or (b) remove a reference to a person from Part 2 of that Schedule and add a reference to that person to Part 3 of that Schedule.",
+                "section": "section-44"
+            },
+            {
+                "type": "UNLESS",
+                "text": "the statutory instrument contains regulations which— (a) remove a reference to a person from Part 1 of Schedule 3 and add a reference to that person to Part 2 or 3 of that Schedule, or (b) remove a reference to a person from Part 2 of that Schedule and add a reference to that person to Part 3 of that Schedule.",
+                "section": "section-44"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/55",
+        "type": "OBLIGATORY",
+        "for": "the justice of the peace",
+        "to": "be satisfied— (a) that there are reasonable grounds for believing that it is necessary to search premises occupied or controlled by the person in question which are not specified in the application in order to find the material referred to in subsection (2), and (b) that it is not reasonably practicable to specify in the application all the premises which the person occupies or controls and which might need to be searched",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the justice of the peace receives the application is for an all premises warrant.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/55"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/55",
+        "type": "PERMITTED",
+        "for": "The warrant",
+        "to": "authorise entry to and search of premises on more than one occasion",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": ", on the application, the justice of the peace is satisfied that it is necessary to authorise multiple entries in order to achieve the purpose for which the justice of the peace issues the warrant.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/55"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/55",
+        "type": "PERMITTED",
+        "for": "the number of entries authorised",
+        "to": "be unlimited, or limited to a maximum",
+        "conditions": [
+            {
+                "type": "WHEN/IF/WHERE",
+                "text": "the warrant authorises multiple entries.",
+                "section": "https://www.legislation.gov.uk/ukpga/2022/32/section/55"
+            }
+        ]
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/55",
+        "type": "PERMITTED",
+        "for": "A constable",
+        "to": "(a) seize and retain anything for which a search has been authorised under subsection (1), and (b) if necessary, use reasonable force in the exercise of a power conferred by a warrant issued under this section.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/60",
+        "type": "PERMITTED",
+        "for": "The Secretary of State",
+        "to": "issue a code of practice about the processing by a relevant person of personal data relating to a hate incident.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/60",
+        "type": "PROHIBITED",
+        "for": "a code of practice under this section",
+        "to": "make provision about— (a) the processing of personal data for the purposes of a criminal investigation, or (b) the processing of personal data relating to the alleged perpetrator of a hate incident at any time after they have been charged with an offence relating to the hate incident.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/60",
+        "type": "PERMITTED",
+        "for": "A code of practice under this section",
+        "to": "make different provision for different purposes.",
+        "conditions": []
+    },
+    {
+        "act_section": "https://www.legislation.gov.uk/ukpga/2022/32/section/60",
+        "type": "OBLIGATORY",
+        "for": "A relevant person",
+        "to": "have regard to the code of practice that is for the time being in force under this section in processing personal data relating to a hate incident.",
+        "conditions": []
+    }
+]

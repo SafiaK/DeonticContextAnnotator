@@ -41,7 +41,7 @@ function exportAnnotations() {
     const url = window.URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'annotations.txt';
+    a.download = '2014_6_part_6.txt';
     document.body.appendChild(a);
     a.click();
     window.URL.revokeObjectURL(url);
