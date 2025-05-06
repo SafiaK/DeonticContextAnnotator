@@ -9,6 +9,15 @@ import nltk
 from nltk.tokenize import sent_tokenize
 import time
 import logging
+from dotenv import load_dotenv
+# LangChain import
+try:
+    from langchain_openai import ChatOpenAI
+except ImportError:
+    from langchain.chat_models import ChatOpenAI
+
+# Load environment variables from .env if present
+load_dotenv()
 
 # Configure logging
 logging.basicConfig(
@@ -56,7 +65,7 @@ class AnnotationAutomator:
         with open(file_path, 'r', encoding='utf-8') as file:
             return file.read()
             
-    def chunk_text(self, text, max_tokens=4000):
+    def chunk_text(self, text, max_tokens=128000 ):
         """
         Split text into chunks that fit within token limits.
         
@@ -112,10 +121,10 @@ class AnnotationAutomator:
             IT IS [OBLIGATORY/PROHIBITED/PERMITTED]
             FOR [someone]
             TO [do something]
-            [WHEN/IF/WHERE/ONLY IF/BEFORE/AFTER/UNLESS] [some conditions apply]
+            [WHEN/IF/WHERE/ONLY IF/BEFORE/AFTER/UNLESS/SUBJECT TO] [some conditions apply]
 
             The slots IT IS, FOR, and TO are mandatory (they occur in every annotation), while conditions are optional.
-            Each condition is identified by either keyword WHEN/IF/WHERE, ONLY IF, BEFORE, AFTER, or UNLESS.
+            Each condition is identified by either keyword WHEN/IF/WHERE, ONLY IF, BEFORE, AFTER, SUBJECT TO, or UNLESS.
 
             Important rules:
             1. Only annotate regulative norms (obligations, permissions, prohibitions), not constitutive norms (definitions).
@@ -239,6 +248,98 @@ class AnnotationAutomator:
         with open(f"{output_path}.json", 'w', encoding='utf-8') as f:
             json.dump(results, f, indent=2)
 
+    def annotate_all_sections_together(self, section_json_file):
+        """
+        Concatenate all section contents and send them in one prompt to the LLM for annotation.
+        Args:
+            section_json_file (str): Path to the JSON file with sections.
+        Returns:
+            list or str: Parsed JSON result from the LLM, or raw string if parsing fails.
+        """
+        try:
+            with open(section_json_file, 'r', encoding='utf-8') as f:
+                section_data = json.load(f)
+            # Sort by section number if possible
+            def section_sort_key(item):
+                try:
+                    return int(item[1].get('number', '0'))
+                except Exception:
+                    return 0
+            sorted_sections = sorted(section_data.items(), key=section_sort_key)
+            all_text = "\n\n".join([
+                f"[SECTION {s[1]['number']}]:\n{s[1]['content']}" for s in sorted_sections if s[1].get('content')
+            ])
+
+            prompt = f"""
+You are an expert legal annotator. Your task is to extract obligations, prohibitions, and permissions from the following legislative text and format them according to these guidelines:
+
+Format:
+Each annotation must be in this JSON format:
+{{
+  "type": "PROHIBITED" | "PERMITTED" | "OBLIGATORY",
+  "for": "subject of the rule",
+  "to": "action that is required, allowed, or forbidden",
+  "conditions": [
+    {{
+      "type": "UNLESS" | "WHEN/IF/WHERE" | "ONLY IF" | "BEFORE" | "AFTER" |"SUBJECT TO",
+      "text": "condition text (quoted from or closely paraphrased)",
+      "section": "section-ID where this condition comes from"
+    }}
+  ]
+}}
+
+The slots IT IS, FOR, and TO are mandatory (they occur in every annotation), while conditions are optional.
+Each condition is identified by either keyword WHEN/IF/WHERE, ONLY IF, BEFORE, AFTER, SUBJECT TO, or UNLESS. There could be maximum two conditions for one annotation.
+
+Important rules:
+1. Only annotate regulative norms (obligations, permissions, prohibitions), not constitutive norms (definitions).
+2. Keep the text as close as possible to the original wording.
+3. The final annotations must read grammatically and fluently.
+
+Return the result as a JSON array, where each object has the following keys: main_section, type, for, to, conditions (which is a list of objects with type, text, and section). The main_section and each condition's section should be the section number (e.g., '10') from which the annotation is derived. If a condition does not clearly map to a section, use null. Do not return any text except the JSON.
+
+Here is the legislative text to annotate:
+
+{all_text}
+
+Extract all obligations, prohibitions, and permissions from this text and format them according to the guidelines.
+"""
+            logger.info(f"Sending all sections together in one prompt to the LLM using LangChain. Total characters: {len(all_text)}")
+            # Use LangChain's ChatOpenAI
+            llm = ChatOpenAI(model_name=self.model, temperature=0.2, openai_api_key=openai.api_key, max_tokens=4000)
+            messages = [
+                {"role": "system", "content": "You are an expert legal annotator who extracts and formats obligations, prohibitions, and permissions from legislative text."},
+                {"role": "user", "content": prompt}
+            ]
+            from langchain.schema import SystemMessage, HumanMessage
+            lc_messages = [
+                SystemMessage(content=messages[0]["content"]),
+                HumanMessage(content=messages[1]["content"])
+            ]
+            result = llm.invoke(lc_messages)
+            logger.info("Received annotation result for all sections together (LangChain). Attempting to parse JSON.")
+            result_text = result.content.strip() if hasattr(result, 'content') else str(result)
+            # Clean up LLM output for JSON parsing
+            result_text = result_text.strip()
+            if result_text.startswith('```json'):
+                result_text = result_text[len('```json'):].strip()
+            if result_text.startswith('```'):
+                result_text = result_text[len('```'):].strip()
+            if result_text.endswith('```'):
+                result_text = result_text[:-len('```')].strip()
+            if result_text.startswith("'") and result_text.endswith("'"):
+                result_text = result_text[1:-1].strip()
+            try:
+                parsed = json.loads(result_text)
+                logger.info("Successfully parsed LLM output as JSON.")
+                return parsed
+            except Exception as e:
+                logger.error(f"Failed to parse LLM output as JSON: {e}")
+                return result_text
+        except Exception as e:
+            logger.error(f"Error in annotate_all_sections_together: {e}")
+            return None
+
 def main():
     parser = argparse.ArgumentParser(description="Automate annotation of legislative text using LLMs")
     parser.add_argument("--sections_dir", type=str, default="legislation/ukpga/2010", 
@@ -275,5 +376,29 @@ def main():
     else:
         automator.process_all_sections(args.sections_dir, args.output)
 
+def main_annotate_all_sections_json(sections_json, api_key=None, model="gpt-4o"):
+    """
+    Annotate all sections in a JSON file together in one LLM prompt.
+    Usage (from __main__ or another script):
+        main_annotate_all_sections_json('data/Test2/2014_6_part_1_sections.json', api_key='YOUR_KEY', model='gpt-4o')
+    If api_key is None, it will be loaded from the OPENAI_API_KEY environment variable (supports .env files).
+    """
+    if api_key is None:
+        api_key = os.environ.get("OPENAI_API_KEY")
+    automator = AnnotationAutomator(api_key=api_key, model=model)
+    print(f"\n[DEMO] Annotating all sections together from {sections_json}\n")
+    result = automator.annotate_all_sections_together(sections_json)
+    print("\n[LLM Annotation Result for All Sections Together]:\n")
+    print(result)
+    # Save to file if result is a list (parsed JSON)
+    if isinstance(result, list):
+        output_path = "outputs/llm_all_sections_output.json"
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        with open(output_path, "w", encoding="utf-8") as f:
+            json.dump(result, f, ensure_ascii=False, indent=2)
+        print(f"\nSaved LLM JSON output to {output_path}\n")
+    else:
+        print("\n[Warning] LLM output was not valid JSON, so it was not saved as a file.\n")
+
 if __name__ == "__main__":
-    main()
+    main_annotate_all_sections_json('data/Test2/2014_6_part_1_sections.json', model='gpt-4o')

@@ -101,9 +101,9 @@ def extract_annotation_parts(annotation):
         elif line.startswith('TO '):
             parts['to'] = line[3:].strip()
             current_part = 'to'
-        elif any(line.startswith(keyword) for keyword in ['WHEN/IF/WHERE', 'ONLY IF', 'BEFORE', 'AFTER', 'UNLESS']):
+        elif any(line.startswith(keyword) for keyword in ['WHEN/IF/WHERE', 'ONLY IF', 'BEFORE', 'AFTER', 'UNLESS','SUBJECT TO']):
             # Extract the condition type and text
-            for keyword in ['WHEN/IF/WHERE', 'ONLY IF', 'BEFORE', 'AFTER', 'UNLESS']:
+            for keyword in ['WHEN/IF/WHERE', 'ONLY IF', 'BEFORE', 'AFTER', 'UNLESS','SUBJECT TO']:
                 if line.startswith(keyword):
                     condition_text = line[len(keyword):].strip()
                     parts['conditions'].append({
