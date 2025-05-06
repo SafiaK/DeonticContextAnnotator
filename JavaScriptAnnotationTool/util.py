@@ -1,6 +1,7 @@
 import json
 import re
 from bs4 import BeautifulSoup
+import os
 
 def update_script_js(file_name):
     # Read the sections from section_list.json
@@ -81,57 +82,70 @@ def update_iframe_src(new_src,filename):
         
     print(f"Successfully updated iframe src to: {new_src}")
 
-def extract_sections_from_part(part_file):
+def extract_sections_from_part(part_file, output_file=None):
     """
     Extract sections from a part XHTML file and return them as a dictionary.
-    
-    Args:
-        part_file (str): Path to the part XHTML file
-        
-    Returns:
-        dict: Dictionary containing section information with structure:
-        {
-            'section_id': {
-                'number': 'section_number',
-                'title': 'section_title',
-                'content': 'section_content'
-            }
-        }
+    If output_file is provided, save the JSON there. Otherwise, use the default naming logic.
     """
     try:
+        print(f"Opening file: {part_file}")
         # Read the XHTML file
         with open(part_file, 'r', encoding='utf-8') as f:
             content = f.read()
         
+        print("File read successfully")
         # Parse the XHTML
         soup = BeautifulSoup(content, 'xml')
+        print("BeautifulSoup parsing complete")
         
         # Initialize the sections dictionary
         sections = {}
         
-        # Find all section anchors
-        section_anchors = soup.find_all('a', class_='LegAnchorID', id=lambda x: x and x.startswith('section-'))
+        # Find all section anchors with IDs starting with 'section-'
+        section_anchors = soup.find_all('a', id=lambda x: x and x.startswith('section-'))
+        print(f"Found {len(section_anchors)} section anchors")
         
         for anchor in section_anchors:
             section_id = anchor.get('id')
-            if not section_id:
+            print(f"\nProcessing section: {section_id}")
+            
+            # Find the next h3 element which contains the section info
+            section_header = anchor.find_next(['h3', 'h4'])
+            if not section_header:
+                print(f"No header found for section {section_id}")
                 continue
-                
-            # Get the section number from the ID
+            print(f"Found header for section {section_id}")
+            
+            # Get section number from the section ID
             section_number = section_id.replace('section-', '')
+            print(f"Section number: {section_number}")
             
-            # Find the section content
-            section_div = anchor.find_next('div', class_='LegSection')
-            if not section_div:
-                continue
-                
-            # Extract section title
-            title_elem = section_div.find('h2', class_='LegSectionTitle')
-            section_title = title_elem.text.strip() if title_elem else f"Section {section_number}"
+            # Get section title - look for any span with text within the header
+            title_spans = section_header.find_all('span')
+            title_text = []
+            for span in title_spans:
+                text = span.get_text(strip=True)
+                if text and text != section_number and 'E+W' not in text:
+                    title_text.append(text)
             
-            # Extract section content
-            content_elem = section_div.find('div', class_='LegSectionContent')
-            section_content = content_elem.text.strip() if content_elem else ""
+            section_title = ' '.join(title_text) if title_text else f"Section {section_number}"
+            print(f"Section title: {section_title}")
+            
+            # Get section content by collecting all relevant paragraphs
+            content = []
+            current = section_header.find_next_sibling()
+            
+            # Keep going until we hit the next section or run out of siblings
+            while current and not (current.name in ['h3', 'h4'] or current.find('a', id=lambda x: x and x.startswith('section-'))):
+                # Look for paragraph text
+                if current.name == 'p':
+                    text = current.get_text(strip=True)
+                    if text and 'E+W' not in text:
+                        content.append(text)
+                current = current.find_next_sibling()
+            
+            section_content = '\n'.join(content)
+            print(f"Content length: {len(section_content)} characters")
             
             # Add to sections dictionary
             sections[section_id] = {
@@ -139,14 +153,29 @@ def extract_sections_from_part(part_file):
                 'title': section_title,
                 'content': section_content
             }
+            print(f"Added section {section_id} to dictionary")
+        
+        print(f"\nTotal sections processed: {len(sections)}")
+        
+        # Save to JSON file using the provided output_file or the part directory name
+        if output_file is None:
+            part_dir = os.path.basename(os.path.dirname(part_file))
+            output_file = os.path.join(os.path.dirname(part_file), f"{part_dir}_sections.json")
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(sections, f, indent=4, ensure_ascii=False)
+        print(f"Saved sections to {output_file}")
         
         return sections
         
     except Exception as e:
         print(f"Error extracting sections from {part_file}: {str(e)}")
+        import traceback
+        traceback.print_exc()
         return {}
 
 if __name__ == "__main__":
     #update_script_js() 
     #update_iframe_src("processed_acts/2015_15.xhtml")
-    print(extract_sections_from_part("packages/1989_41_part_1/acts/1989_41.xhtml"))
+    part_file = "packages/2014_6_part_1/acts/2014_6.xhtml"
+    output_file = "packages/2014_6_part_1/acts/2014_6_part_1_sections.json"
+    print(extract_sections_from_part(part_file, output_file))

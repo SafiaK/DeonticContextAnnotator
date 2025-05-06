@@ -18,6 +18,8 @@ Obligation_prohibition_picking_context/__pycache__
 Obligation_prohibition_picking_context/__pycache__/*
 
 Obligation_prohibition_picking_context/data/*
+Obligation_prohibition_picking_context/outputs/*
+
 # Logs
 *.log
 logs/

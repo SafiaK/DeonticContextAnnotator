@@ -12,6 +12,7 @@ import json
 import xml.dom.minidom as minidom
 import xml.etree.ElementTree as ET
 from util import convert_to_html
+from difflib import SequenceMatcher
 
 
 # Download NLTK resources if not already downloaded
@@ -23,6 +24,10 @@ except LookupError:
     nltk.download('punkt')
     nltk.download('stopwords')
     nltk.download('wordnet')
+
+
+def fuzzy_score(text1, text2):
+    return SequenceMatcher(None, text1, text2).ratio()
 
 def getSectionUrl(section_id,url):
     if section_id:
@@ -145,7 +150,7 @@ def extract_ngrams(tokens, n=3):
     
     return ngrams
 
-def find_matching_sections(annotation_parts, sections, section_range, url):
+def find_matching_sections(annotation_parts, sections, section_range):
     """
     Find sections that match the annotation parts, returning top 3 main sections
     and matching them with conditions.
@@ -156,16 +161,17 @@ def find_matching_sections(annotation_parts, sections, section_range, url):
     # Create section_dict from sections for easy lookup
     section_dict = {section['section_id']: section for section in sections}
     
-    # Filter sections based on range
+    # Filter sections based on range only if section_type is not None
     filtered_sections = sections
     if section_range:
         start, end, section_type = section_range
-        filtered_sections = [
-            section for section in sections
-            if section_type in section['section_id'] and
-            any(str(num) in section['section_id'].split('-')[-1]
-                for num in range(start, end + 1))
-        ]
+        if section_type is not None:
+            filtered_sections = [
+                section for section in sections
+                if section_type in section['section_id'] and
+                any(str(num) in section['section_id'].split('-')[-1]
+                    for num in range(start, end + 1))
+            ]
     
     if not filtered_sections:
         filtered_sections = sections
@@ -199,6 +205,15 @@ def find_matching_sections(annotation_parts, sections, section_range, url):
                 for ngram in part_7grams:
                     if ngram in section_text:
                         main_section_matches[section['section_id']] += 3
+
+                # Fallback fuzzy match if nothing matched with n-grams
+                if not main_section_matches:
+                    for section in filtered_sections:
+                        section_text = section['content'].lower()
+                        similarity = SequenceMatcher(None, part_text.lower(), section_text).ratio()
+                        if similarity > 0.5:  # Tune this threshold as needed
+                            main_section_matches[section['section_id']] += int(similarity * 10)  # Convert ratio to score
+
     
     # Get top 3 main sections
     top_main_sections = sorted(main_section_matches.items(), key=lambda x: x[1], reverse=True)[:3]
@@ -216,7 +231,7 @@ def find_matching_sections(annotation_parts, sections, section_range, url):
         updated_condition = {
             'type': condition['type'],
             'text': condition['text'],
-            'section': main_section#getSectionUrl(main_section, url) if main_section and url is not None else main_section
+            'section': main_section
         }
         
         updated_conditions.append(updated_condition)
@@ -241,7 +256,7 @@ def find_matching_sections(annotation_parts, sections, section_range, url):
                 best_match = main_section
         
         # If no good match in main sections, check all sections
-        if best_score == 0:
+        if best_score == 0 or best_score == -1:
             for section in sections:
                 section_text = section['content'].lower()
                 section_tokens = preprocess_text(section_text)
@@ -255,7 +270,7 @@ def find_matching_sections(annotation_parts, sections, section_range, url):
         updated_condition = {
             'type': condition['type'],
             'text': condition['text'],
-            'section': best_match#getSectionUrl(best_match, url) if best_match and url is not None else best_match
+            'section': best_match
         }
         
         updated_conditions.append(updated_condition)
@@ -312,10 +327,9 @@ def update_main_section(result):
     return result
 
 
-def main(url,annotation_dir,act_sections_dir,output_json_file_path, output_xml_file_path, mode):
+def main(url,annotation_file, section_json_file, output_json_file_path, output_xml_file_path, mode):
     """
     Main function to process annotations and match them with sections.
-    
     Args:
         output_json_file_path (str): Path to save the JSON output file
         output_xml_file_path (str): Path to save the XML output file
@@ -324,209 +338,104 @@ def main(url,annotation_dir,act_sections_dir,output_json_file_path, output_xml_f
             - "normal": Exclude file_name and alternative_Sections_ids from the JSON output
                         and also produce XML output
     """
-    # Paths
-    # Get the current file's directory
-   
-    
-    # Get all annotation files
-    annotation_files = [os.path.join(annotation_dir, f) for f in os.listdir(annotation_dir) 
-                        if f.endswith('.txt') and not f.startswith('.')]
-    
-    # Get all section files
-    section_files = []
-    for f in os.listdir(act_sections_dir):
-        if f.endswith('.txt'):
-            section_files.append(os.path.join(act_sections_dir, f))
-    
-    # Parse sections
-    sections = [parse_section(file) for file in section_files]
-    
-    # Create a dictionary to quickly look up sections by ID
+    # Load sections from JSON file
+    with open(section_json_file, 'r', encoding='utf-8') as f:
+        section_data = json.load(f)
+    # Convert to list of dicts with 'section_id' and 'content'
+    sections = [
+        {'section_id': k, 'content': v['content']} for k, v in section_data.items()
+    ]
     section_dict = {section['section_id']: section for section in sections}
-    
-    # Create a list to store results
+
+    # Only one annotation file
+    annotation_files = [annotation_file]
+
     results = []
-    
-    # Process each annotation file
     for annotation_file in annotation_files:
         print(f"Processing {annotation_file}...")
-        
-        # Extract section range from filename
         filename = os.path.basename(annotation_file)
         section_range = extract_section_range_from_filename(filename)
-        
-        # Parse annotations from file
         annotations = parse_annotations(annotation_file)
-        
+        print(f"\nTotal annotations parsed: {len(annotations)}")
         for annotation in annotations:
-            # Extract parts from annotation
             annotation_parts = extract_annotation_parts(annotation)
-            
-            # Find matching sections
-            matching_sections = find_matching_sections(annotation_parts, sections, section_range,url)
-            
-            # Step 2: Update main_section based on conditions
-            matching_sections = update_main_section(matching_sections)
+        
 
+            matching_sections = find_matching_sections(annotation_parts, sections, section_range)
+            matching_sections = update_main_section(matching_sections)
             main_section_id = matching_sections['main_section']
             updated_conditions = matching_sections['conditions']
             alternative_Sections_ids = matching_sections['alternative_sections']
-            
-            # Update the annotation_parts with the updated conditions that include section info
             annotation_parts['conditions'] = updated_conditions
-            
-            # Combine all section IDs
+
+            if not main_section_id:
+                # Fallback: try to get main_section from condition sections
+                for cond in updated_conditions:
+                    if cond.get('section'):
+                        main_section_id = cond['section']
+                        matching_sections['main_section'] = main_section_id
+                        break
+
             all_section_ids = []
             if main_section_id:
                 all_section_ids.append(main_section_id)
             all_section_ids.extend([c.get('section') for c in updated_conditions if c.get('section')])
-
-
-            
             if main_section_id:
-                # Get the content of the main matching section for display
                 primary_section = section_dict[main_section_id]
-                
                 conditions = annotation_parts['conditions']
                 for condition in conditions:
                     condition['section'] = getSectionUrl(condition.get('section'),url)
-                
-                # Create result dictionary based on mode
+                    #condition['section'] = condition.get('section')
                 result_dict = {
-                    'main_section': getSectionUrl(main_section_id,url),
+                    'main_section': getSectionUrl(main_section_id,url),#main_section_id,
                     'type': annotation_parts['type'],
                     'for': annotation_parts['for'],
                     'to': annotation_parts['to'],
-                    'conditions': conditions#annotation_parts['conditions'],
+                    'conditions': conditions,
                 }
-                
-                # Include additional fields in debug mode
                 if mode == "debug":
                     result_dict['file_name'] = filename
                     result_dict['alternative_Sections_ids'] = alternative_Sections_ids
-                
                 results.append(result_dict)
-           
-    
-    
-    # Create DataFrame
     df = pd.DataFrame(results)
-    
-    # Convert DataFrame to dictionary/JSON format
     json_data = df.to_dict(orient='records')
-
-    # Save to JSON file
     with open(output_json_file_path, 'w', encoding='utf-8') as f:
         json.dump(json_data, f, ensure_ascii=False, indent=4)
-
     print(f"Saved {len(results)} records to {output_json_file_path}")
-    
-    # Generate XML output in normal mode
     if mode == "normal":
-        # Create root element
         root = ET.Element("annotations")
-        
         for item in json_data:
-            # Create annotation element
             annotation = ET.SubElement(root, "annotation")
-            
-            # Add section info
             section = ET.SubElement(annotation, "section")
             section.text = item['main_section']
-            
-            # Add type info with HTML conversion
             type_elem = ET.SubElement(annotation, "type")
             type_elem.text = item['type']
-            #type_html = ET.SubElement(annotation, "type_html")
-            
-            
-            # Add for info with HTML conversion
             for_elem = ET.SubElement(annotation, "for")
-            #for_elem.text = item['for']
-            #for_html = ET.SubElement(annotation, "for_html")
-            
-            # Safely convert to HTML with error handling
-            #try:
-            for_html_str = convert_to_html(item['for'],for_elem)
-            
-            #for_elem.append(for_html_str)
-            # except Exception as e:
-            #     print(f"Error converting 'for' to HTML: {e}")
-            #     for_html.text = item['for']  # Fallback to plain text
-            
-            # Add to info with HTML conversion
+            for_html_str = convert_to_html(item['for'], for_elem)
             to_elem = ET.SubElement(annotation, "to")
-            #to_elem.text = item['to']
-            #to_html = ET.SubElement(annotation, "to_html")
-            
-            # Safely convert to HTML with error handling
-            #try:
-            to_html_str = convert_to_html(item['to'],to_elem)
+            to_html_str = convert_to_html(item['to'], to_elem)
             print(to_html_str)
-            #to_elem.append(to_html_str)
-            # except Exception as e:
-            #     print(f"Error converting 'to' to HTML: {e}")
-            #     to_html.text = item['to']  # Fallback to plain text
-            
-            # Add conditions with embedded section information
             conditions_elem = ET.SubElement(annotation, "conditions")
             for condition in item.get('conditions', []):
                 condition_elem = ET.SubElement(conditions_elem, "condition")
-                
                 condition_type = ET.SubElement(condition_elem, "type")
                 condition_type.text = condition['type']
-                
-                #condition_text = ET.SubElement(condition_elem, "text")
-                #condition_text.text = condition['text']
-                
-                #condition_html = ET.SubElement(condition_elem, "html")
-                
-                # Safely convert to HTML with error handling
-                #try:
-                condition_html_str = convert_to_html(condition['text'],condition_elem)
-                #condition_text.append(condition_html_str)
-                # except Exception as e:
-                #     print(f"Error converting condition to HTML: {e}")
-                #     condition_html.text = condition['text']  # Fallback to plain text
-                
-                # Add section information directly to the condition
+                condition_html_str = convert_to_html(condition['text'], condition_elem)
                 if 'section' in condition and condition['section']:
                     condition_section = ET.SubElement(condition_elem, "section")
                     condition_section.text = condition['section']
-        
-        # Create XML string with pretty formatting
         xml_str = minidom.parseString(ET.tostring(root)).toprettyxml(indent="  ")
-        
-        # Save XML to file
         with open(output_xml_file_path, 'w', encoding='utf-8') as f:
             f.write(xml_str)
-        
         print(f"Saved XML output to {output_xml_file_path}")
-        
 
 if __name__ == "__main__":
-    import argparse
-    
-    # parser = argparse.ArgumentParser(description='Process annotations and match them with sections.')
-    # parser.add_argument('--mode', type=str, choices=['debug', 'normal'], default='normal',
-    #                     help='Mode to run in: debug or normal (default: normal)')
-    # parser.add_argument('--json', type=str, default='equalty_act_annotations_police.json',
-    #                     help='Path to save the JSON output file')
-    # parser.add_argument('--xml', type=str, default='equalty_act_annotations_police.xml',
-    #                     help='Path to save the XML output file')
-    
-    # args = parser.parse_args()
-
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    
-    # Construct paths relative to current directory
-    annotation_dir = os.path.join(current_dir, 'data/Equality Act 2010')
-    act_sections_dir = os.path.join(current_dir, 'data/2010/15')
-    url='https://www.legislation.gov.uk/ukpga/2010/15'
-    output_json_file_path = os.path.join(current_dir,'outputs/Equality_Act_2010.json')
-    output_xml_file_path = os.path.join(current_dir,'outputs/Equality_Act_2010.xml')
+    annotation_file = os.path.join(current_dir, 'data/Test2/2014_6_part_1.txt')
+    section_json_file = os.path.join(current_dir, 'data/Test2/2014_6_part_1_sections.json')
+    output_json_file_path = os.path.join(current_dir, 'outputs/2014_6_part_1.json')
+    output_xml_file_path = os.path.join(current_dir, 'outputs/2014_6_part_1.xml')
     mode = 'normal'
 
-
-   
-    main(url,annotation_dir,act_sections_dir,output_json_file_path, output_xml_file_path, mode)
+    url='https://www.legislation.gov.uk/ukpga/2014/6'
+    main(url,annotation_file, section_json_file, output_json_file_path, output_xml_file_path, mode)
